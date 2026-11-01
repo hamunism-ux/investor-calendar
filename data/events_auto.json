@@ -45,7 +45,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "依規定放假1日。",
-   "added": "2026-11-01"
+   "added": "2026-11-01",
+   "changed": null
   },
   {
    "id": "twse-hol:2026-09-28:abe4ee1e4e",
@@ -59,7 +60,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "依規定放假1日。",
-   "added": "2026-11-01"
+   "added": "2026-11-01",
+   "changed": null
   },
   {
    "id": "twse-hol:2026-10-09:460fbb785a",
@@ -73,7 +75,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "國慶日為10月10日適逢星期六，於10月9日（星期五）補假。",
-   "added": "2026-11-01"
+   "added": "2026-11-01",
+   "changed": null
   },
   {
    "id": "twse-hol:2026-10-10:460fbb785a",
@@ -87,7 +90,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "依規定放假1日。",
-   "added": "2026-11-01"
+   "added": "2026-11-01",
+   "changed": null
   },
   {
    "id": "twse-hol:2026-10-25:8d02119e63",
@@ -101,7 +105,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "依規定放假1日。",
-   "added": "2026-11-01"
+   "added": "2026-11-01",
+   "changed": null
   },
   {
    "id": "twse-hol:2026-10-26:8d02119e63",
@@ -115,7 +120,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "臺灣光復暨金門古寧頭大捷紀念日為10月25日適逢星期日，於10月26日（星期一）補假。",
-   "added": "2026-11-01"
+   "added": "2026-11-01",
+   "changed": null
   },
   {
    "id": "nasdaq-earn:AAPL",
@@ -129,7 +135,8 @@
    "st": "o",
    "u": "https://www.nasdaq.com/market-activity/stocks/aapl/earnings",
    "n": "Nasdaq 公布；若為預估值，Nasdaq 會在公司正式公告後更新",
-   "added": "2026-11-01"
+   "added": "2026-11-01",
+   "changed": null
   },
   {
    "id": "nasdaq-earn:NVDA",
@@ -143,7 +150,8 @@
    "st": "o",
    "u": "https://www.nasdaq.com/market-activity/stocks/nvda/earnings",
    "n": "Nasdaq 公布；若為預估值，Nasdaq 會在公司正式公告後更新",
-   "added": "2026-11-01"
+   "added": "2026-11-01",
+   "changed": null
   },
   {
    "id": "nasdaq-div:MSFT:2026-11-19",
@@ -157,7 +165,8 @@
    "st": "o",
    "u": "https://www.nasdaq.com/market-activity/stocks/msft/dividend-history",
    "n": "每股 $0.98；發放 2026-12-10",
-   "added": "2026-11-01"
+   "added": "2026-11-01",
+   "changed": null
   },
   {
    "id": "twse-hol:2026-12-25:d59f484131",
@@ -171,7 +180,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "依規定放假1日。",
-   "added": "2026-11-01"
+   "added": "2026-11-01",
+   "changed": null
   }
  ]
 }
