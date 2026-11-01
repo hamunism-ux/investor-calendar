@@ -11,7 +11,7 @@
    "st": "o",
    "u": "https://macrumors.com/2026/10/06/apple-q4-2026-earnings-nov-2",
    "n": "官方 IR 已公告；CEO John Ternus、CFO Kevan Parekh 主持",
-   "added": null
+   "k": "earnings"
   },
   {
    "d": "2026-11-02",
@@ -23,7 +23,7 @@
    "st": "o",
    "u": "https://www.pmi.spglobal.com/Public/Release/ReleaseDates",
    "n": null,
-   "added": null
+   "k": null
   },
   {
    "d": "2026-11-02",
@@ -35,7 +35,7 @@
    "st": "o",
    "u": "https://primexbt.com/for-traders/mstr-earnings-date/",
    "n": "規律：幾乎每週一盤前以 8-K 揭露上週 BTC 增持並更新 strategy.com 儀表板（最新持有 848,517 BTC，截至 10/18）；不逐筆列出，每週一自行留意",
-   "added": null
+   "k": null
   },
   {
    "d": "2026-11-03",
@@ -47,7 +47,7 @@
    "st": "o",
    "u": "https://blog.ethereum.org/2025/12/23/devcon-mumbai",
    "n": "EF 官方公告。Devconnect 2027 尚未宣布地點與日期",
-   "added": null
+   "k": null
   },
   {
    "d": "2026-11-03",
@@ -59,7 +59,7 @@
    "st": "o",
    "u": "https://en.wikipedia.org/wiki/2026_United_States_elections",
    "n": "全部 435 席眾院＋35 席參院改選",
-   "added": null
+   "k": null
   },
   {
    "d": "2026-11-04",
@@ -71,7 +71,7 @@
    "st": "o",
    "u": "https://www.pmi.spglobal.com/Public/Release/ReleaseDates",
    "n": null,
-   "added": null
+   "k": null
   },
   {
    "d": "2026-11-06",
@@ -83,7 +83,7 @@
    "st": "o",
    "u": "https://www.bls.gov/schedule/news_release/empsit.htm",
    "n": "BLS 官方行程",
-   "added": null
+   "k": null
   },
   {
    "d": "2026-11-07",
@@ -95,7 +95,7 @@
    "st": "e",
    "u": "https://www.ad-hoc-news.de/boerse/news/corporate-news/berkshire-hathaway-stock-results-are-due-november-7-2026-for-berkshire-hathaway-stock/70363283",
    "n": "依往年推估（11 月第一個週六 07:00 CT 上網）；官方通知通常於前一週三（11/4）發布；Yahoo 行事曆亦列 11/7",
-   "added": null
+   "k": "earnings"
   },
   {
    "d": "2026-11-09",
@@ -107,7 +107,7 @@
    "st": "e",
    "u": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000018/a8-kex991q3202606272026.htm",
    "n": "依往年推估：上季 8/10 除息、2025 年 11/10 除息；本季配息將於 11/2 財報時宣布",
-   "added": null
+   "k": "dividend"
   },
   {
    "d": "2026-11-09",
@@ -119,7 +119,7 @@
    "st": "o",
    "u": "https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html",
    "n": null,
-   "added": null
+   "k": null
   },
   {
    "d": "2026-11-09",
@@ -131,7 +131,7 @@
    "st": "e",
    "u": "https://www.fintechweekly.com/news/what-is-the-clarity-act-digital-asset-market-structure-explained-2026",
    "n": "分析普遍認為通過機率低，需就道德條款與穩定幣收益重新妥協",
-   "added": null
+   "k": null
   },
   {
    "d": "2026-11-10",
@@ -143,7 +143,7 @@
    "st": "e",
    "u": "https://pr.tsmc.com/system/files/newspdf/attachment/8774bca661e0743c52a8bb9c62c82f9c86f2b444/September%202026%20%28C%29_final_wmn.pdf",
    "n": "通常 10 日前公布",
-   "added": null
+   "k": "revenue"
   },
   {
    "d": "2026-11-10",
@@ -155,7 +155,7 @@
    "st": "e",
    "u": "https://pr.tsmc.com/chinese/latest-news",
    "n": "2025 年 Q3 股利董事會為 11/11；2026 年尚未公告日期",
-   "added": null
+   "k": "dividend"
   },
   {
    "d": "2026-11-10",
@@ -167,7 +167,7 @@
    "st": "e",
    "u": "https://udn.com/news/story/7239/9815201",
    "n": "通常每月 10 日前後公布，遇假日順延",
-   "added": null
+   "k": "revenue"
   },
   {
    "d": "2026-11-10",
@@ -179,7 +179,7 @@
    "st": "o",
    "u": "https://www.bls.gov/schedule/news_release/cpi.htm",
    "n": "BLS 官方行程",
-   "added": null
+   "k": null
   },
   {
    "d": "2026-11-13",
@@ -191,7 +191,7 @@
    "st": "o",
    "u": "https://en.coin-turk.com/cardano-targets-dijkstra-hard-fork-between-december-2026-and-march-2027/",
    "n": null,
-   "added": null
+   "k": null
   },
   {
    "d": "2026-11-16",
@@ -203,7 +203,7 @@
    "st": "o",
    "u": "https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html",
    "n": null,
-   "added": null
+   "k": null
   },
   {
    "d": "2026-11-17",
@@ -215,7 +215,7 @@
    "st": "o",
    "u": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873",
    "n": "官方 10/28 公告",
-   "added": null
+   "k": "earnings"
   },
   {
    "d": "2026-11-18",
@@ -227,7 +227,7 @@
    "st": "o",
    "u": "https://www.tencent.com/wp-content/uploads/2026/09/E700_BM.pdf",
    "n": "2026/9/24 公告董事會日期",
-   "added": null
+   "k": "earnings"
   },
   {
    "d": "2026-11-19",
@@ -239,7 +239,7 @@
    "st": "o",
    "u": "https://www.placera.se/pressmeddelanden/microsoft-announces-quarterly-dividend-increase-20260916",
    "n": "9/16 官方公告：登記日 11/19、發放日 12/10；股利調升 8%",
-   "added": null
+   "k": "dividend"
   },
   {
    "d": "2026-11-20",
@@ -251,7 +251,7 @@
    "st": "e",
    "u": "https://www.yzwb.net/news/ch/202512/t20251222_302898.html",
    "n": "每月 20 日公布，遇假日順延",
-   "added": null
+   "k": null
   },
   {
    "d": "2026-11-25",
@@ -263,7 +263,7 @@
    "st": "e",
    "u": "https://www.megaholdings.com.tw/tc/calendar.aspx",
    "n": "2025 年 Q3 法說為 11/25；IR 行事曆尚未列出 2026 Q3 場次",
-   "added": null
+   "k": "earnings"
   },
   {
    "d": "2026-11-25",
@@ -275,7 +275,7 @@
    "st": "o",
    "u": "https://apps.bea.gov/API/signup/release_dates.json",
    "n": "BEA 官方行程",
-   "added": null
+   "k": null
   },
   {
    "d": "2026-11-26",
@@ -287,7 +287,7 @@
    "st": "o",
    "u": "https://www.nyse.com/markets/hours-calendars",
    "n": "NYSE 官方；11/27 提前 13:00 ET 收盤",
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2026-11-27",
@@ -299,7 +299,7 @@
    "st": "o",
    "u": "https://www.tradingview.com/symbols/CME-BTC1%21/contracts",
    "n": "月合約，非季度",
-   "added": null
+   "k": "expiry"
   },
   {
    "d": "2026-11-27",
@@ -311,7 +311,7 @@
    "st": "e",
    "u": "https://www.nownews.com/news/6759336",
    "n": "2025 年為 11/28（週五）；主計總處預告頁面未能讀取，推估 11 月最後週五",
-   "added": null
+   "k": null
   },
   {
    "d": "2026-11-27",
@@ -323,7 +323,7 @@
    "st": "o",
    "u": "https://www.nyse.com/markets/hours-calendars",
    "n": "NYSE 官方",
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2026-11-30",
@@ -335,7 +335,7 @@
    "st": "o",
    "u": "https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html",
    "n": null,
-   "added": null
+   "k": null
   },
   {
    "d": "2026-12-01",
@@ -347,7 +347,7 @@
    "st": "o",
    "u": "https://www.pmi.spglobal.com/Public/Release/ReleaseDates",
    "n": null,
-   "added": null
+   "k": null
   },
   {
    "d": "2026-12-03",
@@ -359,7 +359,7 @@
    "st": "e",
    "u": "https://www.pmi.spglobal.com/Public/Release/ReleaseDates",
    "n": "S&P Global 尚未列出；推估製造業後第 2 個工作日",
-   "added": null
+   "k": null
   },
   {
    "d": "2026-12-03",
@@ -371,7 +371,7 @@
    "st": "e",
    "u": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000228/q3fy26pr.htm",
    "n": "依往年推估：2025 年同季登記日為 12/4；正式日期將於 11/17 財報公布",
-   "added": null
+   "k": "dividend"
   },
   {
    "d": "2026-12-03",
@@ -383,7 +383,7 @@
    "st": "o",
    "u": "https://notateslaapp.com/news/4853/tesla-announces-2026-shareholder-meeting-for-dec-3",
    "n": "議程：Musk、Denholm、Straubel 董事改選；2025 年高管薪酬諮詢投票",
-   "added": null
+   "k": "agm"
   },
   {
    "d": "2026-12-04",
@@ -395,7 +395,7 @@
    "st": "o",
    "u": "https://www.bls.gov/schedule/news_release/empsit.htm",
    "n": "BLS 官方行程",
-   "added": null
+   "k": null
   },
   {
    "d": "2026-12-05",
@@ -407,7 +407,7 @@
    "st": "e",
    "u": "https://en.coin-turk.com/cardano-targets-dijkstra-hard-fork-between-december-2026-and-march-2027/",
    "n": "Intersect 官方規劃頁僅載 Q4 2026 目標、主網日期 TBD；node 11.2.0 已於 2026-10-27 標記，DijkstraNet 測試網分叉尚無日期",
-   "added": null
+   "k": null
   },
   {
    "d": "2026-12-07",
@@ -419,7 +419,7 @@
    "st": "o",
    "u": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf",
    "n": "10/28 Q3 財報宣布：登記日 12/7、發放日 12/14",
-   "added": null
+   "k": "dividend"
   },
   {
    "d": "2026-12-08",
@@ -431,7 +431,7 @@
    "st": "e",
    "u": "https://www.news.cn/20251208/c8890c906d9144fea1d3e9a62fab5fcb/c.html",
    "n": "2025 年為 12/8；通常 12 月上旬，會後公告",
-   "added": null
+   "k": null
   },
   {
    "d": "2026-12-08",
@@ -443,7 +443,7 @@
    "st": "o",
    "u": "https://www.placera.se/pressmeddelanden/microsoft-announces-quarterly-dividend-increase-20260916",
    "n": "9/16 官方公告",
-   "added": null
+   "k": "agm"
   },
   {
    "d": "2026-12-08",
@@ -455,7 +455,7 @@
    "st": "o",
    "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
    "n": "2026 年最後一次會議；現任主席 Kevin Warsh（2026-05-22 宣誓就任，4 年任期），鮑爾卸任主席後留任理事",
-   "added": null
+   "k": null
   },
   {
    "d": "2026-12-09",
@@ -467,7 +467,7 @@
    "st": "o",
    "u": "https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html",
    "n": null,
-   "added": null
+   "k": null
   },
   {
    "d": "2026-12-10",
@@ -479,7 +479,7 @@
    "st": "e",
    "u": "https://pr.tsmc.com/system/files/newspdf/attachment/8774bca661e0743c52a8bb9c62c82f9c86f2b444/September%202026%20%28C%29_final_wmn.pdf",
    "n": "通常 10 日前公布",
-   "added": null
+   "k": "revenue"
   },
   {
    "d": "2026-12-10",
@@ -491,7 +491,7 @@
    "st": "o",
    "u": "https://money.udn.com/money/story/5607/9684950",
    "n": "2026/8/11 董事會核准；停止過戶 12/12-12/16，基準日 12/16",
-   "added": null
+   "k": "dividend"
   },
   {
    "d": "2026-12-10",
@@ -503,7 +503,7 @@
    "st": "e",
    "u": "https://udn.com/news/story/7239/9815201",
    "n": "通常每月 10 日前後公布，遇假日順延",
-   "added": null
+   "k": "revenue"
   },
   {
    "d": "2026-12-10",
@@ -515,7 +515,7 @@
    "st": "e",
    "u": "https://www.news.cn/politics/20251211/a5c1ae08df7e4c6d9a685e8450dd6404/c.html",
    "n": "2025 年為 12/10-11；推估 12 月中旬兩日",
-   "added": null
+   "k": null
   },
   {
    "d": "2026-12-10",
@@ -527,7 +527,7 @@
    "st": "o",
    "u": "https://www.bls.gov/schedule/news_release/cpi.htm",
    "n": "BLS 官方行程",
-   "added": null
+   "k": null
   },
   {
    "d": "2026-12-11",
@@ -539,7 +539,7 @@
    "st": "o",
    "u": "https://www.crfb.org/blogs/upcoming-congressional-fiscal-policy-deadlines",
    "n": "H.R. 6500 延長至 12/11；未通過將停擺；同日農業法案、地面運輸授權到期",
-   "added": null
+   "k": "expiry"
   },
   {
    "d": "2026-12-15",
@@ -551,7 +551,7 @@
    "st": "o",
    "u": "https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html",
    "n": null,
-   "added": null
+   "k": null
   },
   {
    "d": "2026-12-17",
@@ -563,7 +563,7 @@
    "st": "e",
    "u": "https://money.udn.com/money/story/5613/9754551",
    "n": "市場整理之 2026 年日程為 12/17（週四）；央行官網未查得正式公告，依往例 12 月中週四推估",
-   "added": null
+   "k": null
   },
   {
    "d": "2026-12-17",
@@ -575,7 +575,7 @@
    "st": "o",
    "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/m_ref/mref250731a.pdf",
    "n": "無展望報告；意見摘要 12/28",
-   "added": null
+   "k": null
   },
   {
    "d": "2026-12-21",
@@ -587,7 +587,7 @@
    "st": "e",
    "u": "https://www.yzwb.net/news/ch/202512/t20251222_302898.html",
    "n": "12/20 為週日，順延至週一",
-   "added": null
+   "k": null
   },
   {
    "d": "2026-12-23",
@@ -599,7 +599,7 @@
    "st": "o",
    "u": "https://apps.bea.gov/API/signup/release_dates.json",
    "n": "BEA 官方行程",
-   "added": null
+   "k": null
   },
   {
    "d": "2026-12-24",
@@ -611,7 +611,7 @@
    "st": "o",
    "u": "https://www.tradingview.com/symbols/CME-BTC1%21/contracts",
    "n": "年度最大季度到期之一",
-   "added": null
+   "k": "expiry"
   },
   {
    "d": "2026-12-24",
@@ -623,7 +623,7 @@
    "st": "o",
    "u": "https://www.nyse.com/markets/hours-calendars",
    "n": "NYSE 官方",
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2026-12-25",
@@ -635,7 +635,7 @@
    "st": "e",
    "u": "https://support.deribit.com/hc/en-us/articles/25944688876957-Contract-Introduction-Policy",
    "n": "依 Deribit 規則（每季最後週五 08:00 UTC）推算；2020 年同為 12/25 週五到期有前例",
-   "added": null
+   "k": "expiry"
   },
   {
    "d": "2026-12-25",
@@ -647,7 +647,7 @@
    "st": "o",
    "u": "https://openapi.twse.com.tw/v1/holidaySchedule/holidaySchedule",
    "n": null,
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2026-12-25",
@@ -659,7 +659,7 @@
    "st": "o",
    "u": "https://www.nyse.com/markets/hours-calendars",
    "n": "NYSE 官方",
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2026-12-31",
@@ -671,7 +671,7 @@
    "st": "o",
    "u": "https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html",
    "n": null,
-   "added": null
+   "k": null
   },
   {
    "d": "2027-01-01",
@@ -683,7 +683,7 @@
    "st": "e",
    "u": "https://studycli.org/chinese-holidays/2027/",
    "n": "國務院 2027 年放假通知尚未發布（通常 11 月初）；依慣例推估",
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2027-01-01",
@@ -695,7 +695,7 @@
    "st": "e",
    "u": "https://blog.ethereum.org/2026/10/16/glamsterdam-hoodi-announcement",
    "n": "EF 明示主網啟用日尚未決定；因 Hoodi 延期，Q4 2026 主網機率下降，推估滑入 2027 Q1。後續升級 Hegotá 尚在 EIP 篩選階段",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-01-01",
@@ -707,7 +707,7 @@
    "st": "e",
    "u": "https://humanresourcesonline.net/taiwan-releases-2027-holiday-calendar-for-government-agencies",
    "n": "依人事行政總處 116 年行事曆；證交所 2027 開休市日期表通常 10 月底至 11 月公告，查詢時尚未取得",
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2027-01-01",
@@ -719,7 +719,7 @@
    "st": "o",
    "u": "https://www.hkex.com.hk/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SEHK_CT_077_2026Jun01162846?sc_lang=en",
    "n": null,
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2027-01-01",
@@ -731,7 +731,7 @@
    "st": "o",
    "u": "https://www.nyse.com/markets/hours-calendars",
    "n": "NYSE 官方",
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2027-01-02",
@@ -743,7 +743,7 @@
    "st": "e",
    "u": "https://www.sec.gov/Archives/edgar/data/0001318605/000162828026064366/exhibit991111111.htm",
    "n": "依往年推估：每季結束後第 2 天發布；1/2 為週六，可能順延至 1/4",
-   "added": null
+   "k": "earnings"
   },
   {
    "d": "2027-01-03",
@@ -755,7 +755,7 @@
    "st": "o",
    "u": "https://ballotpedia.org/119th_United_States_Congress",
    "n": "第 119 屆國會 1/3 結束，依憲法第 20 修正案新國會中午就職",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-01-03",
@@ -767,7 +767,7 @@
    "st": "e",
    "u": "https://www.unknowngravity.com/en/glosario/clarity-act",
    "n": "開議日為法定，立法重提時程為推估",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-01-04",
@@ -779,7 +779,7 @@
    "st": "e",
    "u": "https://www.pmi.spglobal.com/Public/Release/ReleaseDates",
    "n": "S&P Global 2027 日程未公布；慣例每月首個工作日發布",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-01-06",
@@ -791,7 +791,7 @@
    "st": "o",
    "u": "https://www.ces.tech/",
    "n": "CTA 官網；NVIDIA／AMD 等多在前一日（1/5）開記者會",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-01-07",
@@ -803,7 +803,7 @@
    "st": "o",
    "u": "https://money.udn.com/money/story/5607/9684950",
    "n": null,
-   "added": null
+   "k": "dividend"
   },
   {
    "d": "2027-01-08",
@@ -815,7 +815,7 @@
    "st": "e",
    "u": "https://pr.tsmc.com/system/files/newspdf/attachment/8774bca661e0743c52a8bb9c62c82f9c86f2b444/September%202026%20%28C%29_final_wmn.pdf",
    "n": "通常 10 日前公布；1/10 為週日，推估提前至週五",
-   "added": null
+   "k": "revenue"
   },
   {
    "d": "2027-01-08",
@@ -827,7 +827,7 @@
    "st": "o",
    "u": "https://www.bls.gov/schedule/news_release/empsit.htm",
    "n": "BLS 官方行程",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-01-09",
@@ -839,7 +839,7 @@
    "st": "e",
    "u": "https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html",
    "n": "統計局 2027 年發布日程通常 12 月底公布；依 2026 年模式推估（9-11 日）",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-01-10",
@@ -851,7 +851,7 @@
    "st": "o",
    "u": "https://www.tariffstool.com/guides/us-china-trade-truce-extended-january-2027",
    "n": "9/23 Bessent 宣布延長兩個月（原 11/10 到期）；301 海事措施暫停亦至 1/9 23:59 ET；可能再延長或達成更大協議",
-   "added": null
+   "k": "expiry"
   },
   {
    "d": "2027-01-11",
@@ -863,7 +863,7 @@
    "st": "e",
    "u": "https://udn.com/news/story/7239/9815201",
    "n": "通常每月 10 日前後公布，遇假日順延",
-   "added": null
+   "k": "revenue"
   },
   {
    "d": "2027-01-13",
@@ -875,7 +875,7 @@
    "st": "o",
    "u": "https://www.bls.gov/schedule/news_release/cpi.htm",
    "n": "BLS 官方行程",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-01-14",
@@ -887,7 +887,7 @@
    "st": "e",
    "u": "https://wantrich.chinatimes.com/news/20260115900584-420101",
    "n": "2026 年 Q4 法說為 1/15（週四）；台積電官網尚未公告 2027 日期，推估 1 月中週四",
-   "added": null
+   "k": "earnings"
   },
   {
    "d": "2027-01-18",
@@ -899,7 +899,7 @@
    "st": "e",
    "u": "https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html",
    "n": "2026 年為 1/19（週一）；推估 1 月中",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-01-18",
@@ -911,7 +911,7 @@
    "st": "o",
    "u": "https://occ.gov/news-issuances/bulletins/2026/bulletin-2026-50.html",
    "n": "法定生效日（制定後 18 個月）。OCC 2026-10-21 發布最終規則，發行人申請受理時間另行公告；外國穩定幣發行人須能遵守美國合法命令",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-01-18",
@@ -923,7 +923,7 @@
    "st": "o",
    "u": "https://www.nyse.com/markets/hours-calendars",
    "n": "NYSE 官方",
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2027-01-20",
@@ -935,7 +935,7 @@
    "st": "e",
    "u": "https://www.yzwb.net/news/ch/202512/t20251222_302898.html",
    "n": "每月 20 日公布，遇假日順延",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-01-21",
@@ -947,7 +947,7 @@
    "st": "o",
    "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/m_ref/mref260731a.pdf",
    "n": null,
-   "added": null
+   "k": null
   },
   {
    "d": "2027-01-26",
@@ -959,7 +959,7 @@
    "st": "o",
    "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
    "n": "Fed 官網：日期暫定，於前次會議確認",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-01-27",
@@ -971,7 +971,7 @@
    "st": "e",
    "u": "https://www.wallstreethorizon.com/microsoft-earnings-calendar",
    "n": "依往年推估：2026 年為 1/28；微軟通常提前 3 週公告",
-   "added": null
+   "k": "earnings"
   },
   {
    "d": "2027-01-27",
@@ -983,7 +983,7 @@
    "st": "e",
    "u": "https://www.wallstreethorizon.com/tesla-earnings-calendar",
    "n": "依往年推估（WSH unconfirmed）；1 月財報常同時更新 Cybercab／Optimus 量產進度",
-   "added": null
+   "k": "earnings"
   },
   {
    "d": "2027-01-28",
@@ -995,7 +995,7 @@
    "st": "e",
    "u": "https://www.wallstreethorizon.com/apple-earnings-calendar",
    "n": "依往年推估（WSH inferred）；Apple 通常提前約 4 週公告",
-   "added": null
+   "k": "earnings"
   },
   {
    "d": "2027-01-28",
@@ -1007,7 +1007,7 @@
    "st": "o",
    "u": "https://apps.bea.gov/API/signup/release_dates.json",
    "n": "BEA 2027 行程（機器可讀版）；同日發布 12 月 PCE",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-01-29",
@@ -1019,7 +1019,7 @@
    "st": "o",
    "u": "https://www.tradingview.com/symbols/CME-BTC1%21/contracts",
    "n": "月合約",
-   "added": null
+   "k": "expiry"
   },
   {
    "d": "2027-01-29",
@@ -1031,7 +1031,7 @@
    "st": "e",
    "u": "https://www.stat.gov.tw/News_NoticeCalendar_Content.aspx?Ln=1&MetaI_D=1331",
    "n": "主計總處規則：季終後第 1 個月月底前公布；推估 1 月最後週五",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-01-31",
@@ -1043,7 +1043,7 @@
    "st": "e",
    "u": "https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html",
    "n": "統計局慣例每月最後一日發布（含週末）；2027 日程未公布",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-02-01",
@@ -1055,7 +1055,7 @@
    "st": "e",
    "u": "https://www.pmi.spglobal.com/Public/Release/ReleaseDates",
    "n": "S&P Global 2027 日程未公布；慣例每月首個工作日發布",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-02-01",
@@ -1067,7 +1067,7 @@
    "st": "e",
    "u": "https://humanresourcesonline.net/taiwan-releases-2027-holiday-calendar-for-government-agencies",
    "n": "推估：2/2-2/3 僅辦結算交割不交易、2/4-2/10 春節休市、2/11 開紅盤；依 2026 年模式（休市前 2 個交易日結算）推估，待證交所公告",
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2027-02-02",
@@ -1079,7 +1079,7 @@
    "st": "e",
    "u": "https://humanresourcesonline.net/taiwan-releases-2027-holiday-calendar-for-government-agencies",
    "n": "2/4 除夕（週四）、2/5 初一；政府行事曆 2/4-2/10 放假；證交所尚未公告",
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2027-02-03",
@@ -1091,7 +1091,7 @@
    "st": "e",
    "u": "https://www.wallstreethorizon.com/alphabet-earnings-calendar",
    "n": "依往年推估：2026 年為 2/4（WSH 預測）；Alphabet 通常提前約 4 週公告",
-   "added": null
+   "k": "earnings"
   },
   {
    "d": "2027-02-04",
@@ -1103,7 +1103,7 @@
    "st": "e",
    "u": "https://www.alphaquery.com/stock/MSTR/earnings-history",
    "n": "依往年推估：2026 年為 2/5（週四）",
-   "added": null
+   "k": "earnings"
   },
   {
    "d": "2027-02-05",
@@ -1115,7 +1115,7 @@
    "st": "e",
    "u": "https://studycli.org/chinese-holidays/2027/",
    "n": "國務院 2027 年放假通知尚未發布；依 2025 年起『除夕納入』慣例推估 2/5-2/12 前後，實際天數待公告",
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2027-02-05",
@@ -1127,7 +1127,7 @@
    "st": "o",
    "u": "https://www.hkex.com.hk/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SEHK_CT_077_2026Jun01162846?sc_lang=en",
    "n": null,
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2027-02-05",
@@ -1139,7 +1139,7 @@
    "st": "o",
    "u": "https://www.bls.gov/schedule/news_release/empsit.htm",
    "n": "BLS 官方行程",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-02-08",
@@ -1151,7 +1151,7 @@
    "st": "e",
    "u": "https://www.heygotrade.com/en/market-outlook/apple-dividend-2026-yield-history-ex-date/",
    "n": "依往年推估（2 月第二個週一前後）",
-   "added": null
+   "k": "dividend"
   },
   {
    "d": "2027-02-08",
@@ -1163,7 +1163,7 @@
    "st": "o",
    "u": "https://www.hkex.com.hk/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SEHK_CT_077_2026Jun01162846?sc_lang=en",
    "n": "初一 2/6、初二 2/7 為週末，故補休 2/8-2/9",
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2027-02-10",
@@ -1175,7 +1175,7 @@
    "st": "e",
    "u": "https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html",
    "n": "統計局 2027 年發布日程通常 12 月底公布；依 2026 年模式推估（9-11 日）",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-02-11",
@@ -1187,7 +1187,7 @@
    "st": "e",
    "u": "https://pr.tsmc.com/system/files/newspdf/attachment/8774bca661e0743c52a8bb9c62c82f9c86f2b444/September%202026%20%28C%29_final_wmn.pdf",
    "n": "通常 10 日前公布；2/4-2/10 春節休市，推估順延至開紅盤日",
-   "added": null
+   "k": "revenue"
   },
   {
    "d": "2027-02-11",
@@ -1199,7 +1199,7 @@
    "st": "e",
    "u": "https://udn.com/news/story/7239/9815201",
    "n": "通常每月 10 日前後公布，遇假日順延",
-   "added": null
+   "k": "revenue"
   },
   {
    "d": "2027-02-11",
@@ -1211,7 +1211,7 @@
    "st": "e",
    "u": "https://humanresourcesonline.net/taiwan-releases-2027-holiday-calendar-for-government-agencies",
    "n": "推估",
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2027-02-11",
@@ -1223,7 +1223,7 @@
    "st": "o",
    "u": "https://www.bls.gov/schedule/news_release/cpi.htm",
    "n": "BLS 官方行程",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-02-15",
@@ -1235,7 +1235,7 @@
    "st": "e",
    "u": "https://www.ethdenver.com/",
    "n": "2026 年為 2/17–21 於 National Western Center；2027 日期截至查詢時未公告",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-02-15",
@@ -1247,7 +1247,7 @@
    "st": "o",
    "u": "https://www.nyse.com/markets/hours-calendars",
    "n": "NYSE 官方",
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2027-02-18",
@@ -1259,7 +1259,7 @@
    "st": "e",
    "u": "https://www.placera.se/pressmeddelanden/microsoft-announces-quarterly-dividend-increase-20260916",
    "n": "依往年推估：2026 年為 2/19",
-   "added": null
+   "k": "dividend"
   },
   {
    "d": "2027-02-22",
@@ -1271,7 +1271,7 @@
    "st": "e",
    "u": "https://www.yzwb.net/news/ch/202512/t20251222_302898.html",
    "n": "2/20 為週六，順延至週一",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-02-23",
@@ -1283,7 +1283,7 @@
    "st": "e",
    "u": "https://www.hashe.com/tech-news/apple-announces-annual-shareholders-meeting-for-next-month/",
    "n": "依往年推估：2026 年為 2/24 線上舉行",
-   "added": null
+   "k": "agm"
   },
   {
    "d": "2027-02-23",
@@ -1295,7 +1295,7 @@
    "st": "e",
    "u": "https://www.cbsnews.com/news/trump-2026-state-of-the-union-february-24-mike-johnson",
    "n": "依往年推估：2026 年為 2/24；需由新任眾院議長邀請，日期尚未排定",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-02-24",
@@ -1307,7 +1307,7 @@
    "st": "e",
    "u": "https://en.coin-turk.com/cardano-targets-dijkstra-hard-fork-between-december-2026-and-march-2027/",
    "n": "Intersect 2026-09 時程重校正後的第二窗口",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-02-24",
@@ -1319,7 +1319,7 @@
    "st": "e",
    "u": "https://www.wallstreethorizon.com/nvidia-earnings-calendar",
    "n": "依往年推估：2026 年為 2/25（WSH inferred）",
-   "added": null
+   "k": "earnings"
   },
   {
    "d": "2027-02-25",
@@ -1331,7 +1331,7 @@
    "st": "o",
    "u": "https://apps.bea.gov/API/signup/release_dates.json",
    "n": "BEA 官方行程",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-02-26",
@@ -1343,7 +1343,7 @@
    "st": "o",
    "u": "https://www.tradingview.com/symbols/CME-BTC1%21/contracts",
    "n": "月合約",
-   "added": null
+   "k": "expiry"
   },
   {
    "d": "2027-02-26",
@@ -1355,7 +1355,7 @@
    "st": "e",
    "u": "https://www.stat.gov.tw/News_NoticeCalendar_Content.aspx?Ln=1&MetaI_D=1331",
    "n": "往例 2 月下旬；推估",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-02-27",
@@ -1367,7 +1367,7 @@
    "st": "e",
    "u": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526085801/d117283d8k.htm",
    "n": "依往年推估：2026 年為 2/28（週六）；由 CEO Greg Abel 撰寫股東信",
-   "added": null
+   "k": "earnings"
   },
   {
    "d": "2027-02-28",
@@ -1379,7 +1379,7 @@
    "st": "e",
    "u": "https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html",
    "n": "統計局慣例每月最後一日發布（含週末）；2027 日程未公布",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-03-01",
@@ -1391,7 +1391,7 @@
    "st": "e",
    "u": "https://www.pmi.spglobal.com/Public/Release/ReleaseDates",
    "n": "S&P Global 2027 日程未公布；慣例每月首個工作日發布",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-03-01",
@@ -1403,7 +1403,7 @@
    "st": "o",
    "u": "https://www.gsma.com/get-involved/gsma-membership/gsma_events/gsma-membership-at-mwc-barcelona-2027/",
    "n": "GSMA 官網",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-03-01",
@@ -1415,7 +1415,7 @@
    "st": "e",
    "u": "https://humanresourcesonline.net/taiwan-releases-2027-holiday-calendar-for-government-agencies",
    "n": "依政府行事曆 2/27-3/1 連假；證交所尚未公告",
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2027-03-04",
@@ -1427,7 +1427,7 @@
    "st": "e",
    "u": "https://paper.people.com.cn/rmrbhwb/pc/content/202603/05/content_30143645.html",
    "n": "歷年政協於 3/4 開幕；2027 日期待 2027/2 人大常委會決定",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-03-05",
@@ -1439,7 +1439,7 @@
    "st": "e",
    "u": "https://paper.people.com.cn/rmrbhwb/pc/content/202603/05/content_30143645.html",
    "n": "2026 年為 3/5 上午開幕；推估 3/5",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-03-05",
@@ -1451,7 +1451,7 @@
    "st": "o",
    "u": "https://www.bls.gov/schedule/news_release/empsit.htm",
    "n": "BLS 官方行程",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-03-08",
@@ -1463,7 +1463,7 @@
    "st": "e",
    "u": "https://www.heygotrade.com/en/market-outlook/google-dividend/",
    "n": "依往年推估：2026 年登記日為 3/9",
-   "added": null
+   "k": "dividend"
   },
   {
    "d": "2027-03-09",
@@ -1475,7 +1475,7 @@
    "st": "e",
    "u": "https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html",
    "n": "統計局 2027 年發布日程通常 12 月底公布；依 2026 年模式推估（9-11 日）",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-03-10",
@@ -1487,7 +1487,7 @@
    "st": "e",
    "u": "https://pr.tsmc.com/system/files/newspdf/attachment/8774bca661e0743c52a8bb9c62c82f9c86f2b444/September%202026%20%28C%29_final_wmn.pdf",
    "n": "通常 10 日前公布",
-   "added": null
+   "k": "revenue"
   },
   {
    "d": "2027-03-10",
@@ -1499,7 +1499,7 @@
    "st": "e",
    "u": "https://udn.com/news/story/7239/9815201",
    "n": "通常每月 10 日前後公布，遇假日順延",
-   "added": null
+   "k": "revenue"
   },
   {
    "d": "2027-03-10",
@@ -1511,7 +1511,7 @@
    "st": "e",
    "u": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/q4fy26pr.htm",
    "n": "依往年推估：2026 年登記日為 3/11",
-   "added": null
+   "k": "dividend"
   },
   {
    "d": "2027-03-10",
@@ -1523,7 +1523,7 @@
    "st": "o",
    "u": "https://www.bls.gov/schedule/news_release/cpi.htm",
    "n": "BLS 官方行程",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-03-11",
@@ -1535,7 +1535,7 @@
    "st": "e",
    "u": "https://www.megaholdings.com.tw/tc/calendar.aspx",
    "n": "2026 年 Q4 法說為 3/12；推估 3 月中",
-   "added": null
+   "k": "earnings"
   },
   {
    "d": "2027-03-15",
@@ -1547,7 +1547,7 @@
    "st": "o",
    "u": "https://www.nvidia.com/gtc/",
    "n": "NVIDIA 官網列 3/15–18（FAQ 頁另寫 3/14–18，以主站為準）",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-03-16",
@@ -1559,7 +1559,7 @@
    "st": "e",
    "u": "https://finance.technews.tw/2025/11/11/tsmc-q3-dividend-6ntd/",
    "n": "往例 Q3 股利於隔年 3 月中除息（2026 年為 3/17）；金額與日期待 11 月董事會公告",
-   "added": null
+   "k": "dividend"
   },
   {
    "d": "2027-03-16",
@@ -1571,7 +1571,7 @@
    "st": "o",
    "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
    "n": null,
-   "added": null
+   "k": null
   },
   {
    "d": "2027-03-17",
@@ -1583,7 +1583,7 @@
    "st": "e",
    "u": "https://filingreader.com/news-wire/hongkong/2025-12-23/tencent-board-to-meet-march-18-for-2025-annual-results-dividend",
    "n": "2026 年全年業績為 3/18（週三）；董事會日期通常於 12 月下旬公告",
-   "added": null
+   "k": "earnings"
   },
   {
    "d": "2027-03-17",
@@ -1595,7 +1595,7 @@
    "st": "o",
    "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/m_ref/mref260731a.pdf",
    "n": null,
-   "added": null
+   "k": null
   },
   {
    "d": "2027-03-18",
@@ -1607,7 +1607,7 @@
    "st": "e",
    "u": "https://applealmondrealty.com/posts/46822",
    "n": "往例 3 月中下旬週四（2026 年為 3/19）；推估",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-03-22",
@@ -1619,7 +1619,7 @@
    "st": "e",
    "u": "https://www.yzwb.net/news/ch/202512/t20251222_302898.html",
    "n": "3/20 為週六，順延至週一",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-03-25",
@@ -1631,7 +1631,7 @@
    "st": "o",
    "u": "https://www.tradingview.com/symbols/CME-BTC1%21/contracts",
    "n": null,
-   "added": null
+   "k": "expiry"
   },
   {
    "d": "2027-03-26",
@@ -1643,7 +1643,7 @@
    "st": "e",
    "u": "https://support.deribit.com/hc/en-us/articles/25944688876957-Contract-Introduction-Policy",
    "n": "依規則推算；Deribit 過去於耶穌受難日（如 2024-03-29）照常到期",
-   "added": null
+   "k": "expiry"
   },
   {
    "d": "2027-03-26",
@@ -1655,7 +1655,7 @@
    "st": "o",
    "u": "https://www.hkex.com.hk/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SEHK_CT_077_2026Jun01162846?sc_lang=en",
    "n": null,
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2027-03-26",
@@ -1667,7 +1667,7 @@
    "st": "o",
    "u": "https://www.nyse.com/markets/hours-calendars",
    "n": "NYSE 官方",
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2027-03-29",
@@ -1679,7 +1679,7 @@
    "st": "o",
    "u": "https://www.hkex.com.hk/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SEHK_CT_077_2026Jun01162846?sc_lang=en",
    "n": null,
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2027-03-31",
@@ -1691,7 +1691,7 @@
    "st": "e",
    "u": "https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html",
    "n": "統計局慣例每月最後一日發布（含週末）；2027 日程未公布",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-03-31",
@@ -1703,7 +1703,7 @@
    "st": "o",
    "u": "https://apps.bea.gov/API/signup/release_dates.json",
    "n": "BEA 官方行程",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-04-01",
@@ -1715,7 +1715,7 @@
    "st": "e",
    "u": "https://product.cardano.intersectmbo.org/hardfork-planning/dijkstra/",
    "n": "Intersect 標明為估計而非保證，且不含治理與社群測試時間",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-04-01",
@@ -1727,7 +1727,7 @@
    "st": "e",
    "u": "https://www.pmi.spglobal.com/Public/Release/ReleaseDates",
    "n": "S&P Global 2027 日程未公布；慣例每月首個工作日發布",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-04-02",
@@ -1739,7 +1739,7 @@
    "st": "e",
    "u": "https://www.sec.gov/Archives/edgar/data/0001318605/000162828026064366/exhibit991111111.htm",
    "n": "依往年推估",
-   "added": null
+   "k": "earnings"
   },
   {
    "d": "2027-04-02",
@@ -1751,7 +1751,7 @@
    "st": "o",
    "u": "https://www.bls.gov/schedule/news_release/empsit.htm",
    "n": "BLS 官方行程",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-04-03",
@@ -1763,7 +1763,7 @@
    "st": "e",
    "u": "https://studycli.org/chinese-holidays/2027/",
    "n": "國務院 2027 年放假通知尚未發布；依慣例推估",
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2027-04-05",
@@ -1775,7 +1775,7 @@
    "st": "e",
    "u": "https://humanresourcesonline.net/taiwan-releases-2027-holiday-calendar-for-government-agencies",
    "n": "政府行事曆 4/3-4/6 連假（4/6 為 4/4 週日之補假）；證交所尚未公告",
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2027-04-05",
@@ -1787,7 +1787,7 @@
    "st": "o",
    "u": "https://www.hkex.com.hk/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SEHK_CT_077_2026Jun01162846?sc_lang=en",
    "n": null,
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2027-04-09",
@@ -1799,7 +1799,7 @@
    "st": "e",
    "u": "https://pr.tsmc.com/system/files/newspdf/attachment/8774bca661e0743c52a8bb9c62c82f9c86f2b444/September%202026%20%28C%29_final_wmn.pdf",
    "n": "通常 10 日前公布；4/10 為週六，推估提前至週五",
-   "added": null
+   "k": "revenue"
   },
   {
    "d": "2027-04-09",
@@ -1811,7 +1811,7 @@
    "st": "e",
    "u": "https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html",
    "n": "統計局 2027 年發布日程通常 12 月底公布；依 2026 年模式推估（9-11 日）",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-04-12",
@@ -1823,7 +1823,7 @@
    "st": "e",
    "u": "https://udn.com/news/story/7239/9815201",
    "n": "通常每月 10 日前後公布，遇假日順延",
-   "added": null
+   "k": "revenue"
   },
   {
    "d": "2027-04-13",
@@ -1835,7 +1835,7 @@
    "st": "o",
    "u": "https://www.bls.gov/schedule/news_release/cpi.htm",
    "n": "BLS 官方行程",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-04-15",
@@ -1847,7 +1847,7 @@
    "st": "e",
    "u": "https://wantrich.chinatimes.com/news/20260417900502-420101",
    "n": "2026 年 Q1 法說為 4/16（週四）；推估 4 月中週四",
-   "added": null
+   "k": "earnings"
   },
   {
    "d": "2027-04-16",
@@ -1859,7 +1859,7 @@
    "st": "e",
    "u": "https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html",
    "n": "2026 年為 4/16（週四）；推估 4 月中",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-04-20",
@@ -1871,7 +1871,7 @@
    "st": "e",
    "u": "https://www.yzwb.net/news/ch/202512/t20251222_302898.html",
    "n": "每月 20 日公布，遇假日順延",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-04-21",
@@ -1883,7 +1883,7 @@
    "st": "e",
    "u": "https://www.businesswire.com/news/home/20260422346925/en/",
    "n": "2026 年為 4/22 於 Santa Clara；2027 日期未公告，推估 4 月下旬",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-04-21",
@@ -1895,7 +1895,7 @@
    "st": "e",
    "u": "https://www.wallstreethorizon.com/tesla-earnings-calendar",
    "n": "依往年推估（WSH inferred）",
-   "added": null
+   "k": "earnings"
   },
   {
    "d": "2027-04-21",
@@ -1907,7 +1907,7 @@
    "st": "o",
    "u": "https://www.token2049.com/dubai/announcement",
    "n": "原 2026 年場次因中東安全情勢延至 2027；場地未於公告載明",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-04-27",
@@ -1919,7 +1919,7 @@
    "st": "o",
    "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
    "n": null,
-   "added": null
+   "k": null
   },
   {
    "d": "2027-04-27",
@@ -1931,7 +1931,7 @@
    "st": "o",
    "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/m_ref/mref260731a.pdf",
    "n": null,
-   "added": null
+   "k": null
   },
   {
    "d": "2027-04-28",
@@ -1943,7 +1943,7 @@
    "st": "e",
    "u": "https://www.news.cn/20260428/dce804026b054a3aa1f7a1703b5cf231/c.html",
    "n": "2026 年為 4/28；通常 4 月下旬，會後公告",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-04-28",
@@ -1955,7 +1955,7 @@
    "st": "e",
    "u": "https://www.wallstreethorizon.com/alphabet-earnings-calendar",
    "n": "依往年推估（WSH inferred）",
-   "added": null
+   "k": "earnings"
   },
   {
    "d": "2027-04-28",
@@ -1967,7 +1967,7 @@
    "st": "e",
    "u": "https://www.wallstreethorizon.com/microsoft-earnings-calendar",
    "n": "依往年推估（WSH inferred）",
-   "added": null
+   "k": "earnings"
   },
   {
    "d": "2027-04-29",
@@ -1979,7 +1979,7 @@
    "st": "e",
    "u": "https://www.wallstreethorizon.com/apple-earnings-calendar",
    "n": "依往年推估（WSH inferred）",
-   "added": null
+   "k": "earnings"
   },
   {
    "d": "2027-04-29",
@@ -1991,7 +1991,7 @@
    "st": "o",
    "u": "https://apps.bea.gov/API/signup/release_dates.json",
    "n": "BEA 官方行程；同日發布 3 月 PCE",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-04-30",
@@ -2003,7 +2003,7 @@
    "st": "o",
    "u": "https://www.tradingview.com/symbols/CME-BTC1%21/contracts",
    "n": "月合約",
-   "added": null
+   "k": "expiry"
   },
   {
    "d": "2027-04-30",
@@ -2015,7 +2015,7 @@
    "st": "e",
    "u": "https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html",
    "n": "統計局慣例每月最後一日發布（含週末）；2027 日程未公布",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-04-30",
@@ -2027,7 +2027,7 @@
    "st": "e",
    "u": "https://www.stat.gov.tw/News_NoticeCalendar_Content.aspx?Ln=1&MetaI_D=1331",
    "n": "主計總處規則：季終後第 1 個月月底前公布；4/30 為勞動節連假前一日，可能提前至 4/29",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-04-30",
@@ -2039,7 +2039,7 @@
    "st": "e",
    "u": "https://humanresourcesonline.net/taiwan-releases-2027-holiday-calendar-for-government-agencies",
    "n": "依政府行事曆 4/30-5/2 連假；證交所尚未公告",
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2027-05-01",
@@ -2051,7 +2051,7 @@
    "st": "e",
    "u": "https://www.good-investing.net/berkshire-hathaway-annual-meeting/2027-may-01/",
    "n": "依往年推估（5 月第一個週六）；Berkshire 官網尚未正式公告 2027 日期；2026 年為 5/2，Greg Abel 首次主持，Buffett 以董事長身分列席",
-   "added": null
+   "k": "earnings"
   },
   {
    "d": "2027-05-01",
@@ -2063,7 +2063,7 @@
    "st": "e",
    "u": "https://studycli.org/chinese-holidays/2027/",
    "n": "國務院 2027 年放假通知尚未發布；依慣例推估 5/1-5/5",
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2027-05-04",
@@ -2075,7 +2075,7 @@
    "st": "e",
    "u": "https://www.alphaquery.com/stock/MSTR/earnings-history",
    "n": "依往年推估：2026 年為 5/5、2025 年為 5/1",
-   "added": null
+   "k": "earnings"
   },
   {
    "d": "2027-05-04",
@@ -2087,7 +2087,7 @@
    "st": "o",
    "u": "https://consensus.coindesk.com/",
    "n": "非 Toronto；Consensus 自 2026 起移至邁阿密",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-05-06",
@@ -2099,7 +2099,7 @@
    "st": "e",
    "u": "https://www.pmi.spglobal.com/Public/Release/ReleaseDates",
    "n": "S&P Global 2027 日程未公布；慣例首個工作日，五一假期後推估 5/6",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-05-07",
@@ -2111,7 +2111,7 @@
    "st": "o",
    "u": "https://www.bls.gov/schedule/news_release/empsit.htm",
    "n": "BLS 官方行程",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-05-10",
@@ -2123,7 +2123,7 @@
    "st": "e",
    "u": "https://pr.tsmc.com/system/files/newspdf/attachment/8774bca661e0743c52a8bb9c62c82f9c86f2b444/September%202026%20%28C%29_final_wmn.pdf",
    "n": "通常 10 日前公布",
-   "added": null
+   "k": "revenue"
   },
   {
    "d": "2027-05-10",
@@ -2135,7 +2135,7 @@
    "st": "e",
    "u": "https://udn.com/news/story/7239/9815201",
    "n": "通常每月 10 日前後公布，遇假日順延",
-   "added": null
+   "k": "revenue"
   },
   {
    "d": "2027-05-10",
@@ -2147,7 +2147,7 @@
    "st": "e",
    "u": "https://www.heygotrade.com/en/market-outlook/apple-dividend-2026-yield-history-ex-date/",
    "n": "依往年推估（5 月第二個週一前後）",
-   "added": null
+   "k": "dividend"
   },
   {
    "d": "2027-05-11",
@@ -2159,7 +2159,7 @@
    "st": "e",
    "u": "https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html",
    "n": "統計局 2027 年發布日程通常 12 月底公布；依 2026 年模式推估（9-11 日）",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-05-12",
@@ -2171,7 +2171,7 @@
    "st": "e",
    "u": "https://static.www.tencent.com/uploads/2026/05/13/47382ae415a209fd161bc19a1f9b3704.pdf",
    "n": "2026 年 Q1 業績為 5/13（週三）；推估 5 月中週三",
-   "added": null
+   "k": "earnings"
   },
   {
    "d": "2027-05-12",
@@ -2183,7 +2183,7 @@
    "st": "e",
    "u": "https://www.itiger.com/news/1173374117",
    "n": "2026 年 AGM 為 5/13 15:00 香港四季酒店；通函通常 4 月上旬寄發",
-   "added": null
+   "k": "agm"
   },
   {
    "d": "2027-05-12",
@@ -2195,7 +2195,7 @@
    "st": "o",
    "u": "https://www.bls.gov/schedule/news_release/cpi.htm",
    "n": "BLS 官方行程",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-05-13",
@@ -2207,7 +2207,7 @@
    "st": "e",
    "u": "https://omdia.tech.informa.com/om146582/key-takeaways-from-tsmcs-taiwan-technology-symposium-held-on-may-14-2026",
    "n": "2026 年台灣技術論壇為 5/14；2027 日期未公告，推估 5 月中",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-05-13",
@@ -2219,7 +2219,7 @@
    "st": "o",
    "u": "https://www.hkex.com.hk/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SEHK_CT_077_2026Jun01162846?sc_lang=en",
    "n": null,
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2027-05-18",
@@ -2231,7 +2231,7 @@
    "st": "e",
    "u": "https://www.engadget.com/general/google-io-2026-is-set-for-may-19-and-20-200805024.html",
    "n": "依往年推估：2026 年為 5/19–20，通常 2 月中公告",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-05-18",
@@ -2243,7 +2243,7 @@
    "st": "e",
    "u": "https://www.windowscentral.com/microsoft/windows-11/how-to-watch-microsoft-build-2026-windows-11-nvidia-rtx-spark-ai-agents-and-more",
    "n": "依往年推估，日期不確定性高：2025 年 5/19–22（西雅圖）、2026 年 6/2 起（舊金山）；可能落在 5 月中至 6 月初",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-05-19",
@@ -2255,7 +2255,7 @@
    "st": "e",
    "u": "https://www.wallstreethorizon.com/nvidia-earnings-calendar",
    "n": "依往年推估（WSH inferred）",
-   "added": null
+   "k": "earnings"
   },
   {
    "d": "2027-05-20",
@@ -2267,7 +2267,7 @@
    "st": "e",
    "u": "https://www.yzwb.net/news/ch/202512/t20251222_302898.html",
    "n": "每月 20 日公布，遇假日順延",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-05-20",
@@ -2279,7 +2279,7 @@
    "st": "e",
    "u": "https://www.placera.se/pressmeddelanden/microsoft-announces-quarterly-dividend-increase-20260916",
    "n": "依往年推估：2026 年為 5/21",
-   "added": null
+   "k": "dividend"
   },
   {
    "d": "2027-05-26",
@@ -2291,7 +2291,7 @@
    "st": "e",
    "u": "https://www.megaholdings.com.tw/tc/calendar.aspx",
    "n": "2026 年 Q1 法說為 5/27；推估 5 月下旬",
-   "added": null
+   "k": "earnings"
   },
   {
    "d": "2027-05-27",
@@ -2303,7 +2303,7 @@
    "st": "o",
    "u": "https://apps.bea.gov/API/signup/release_dates.json",
    "n": "BEA 官方行程",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-05-28",
@@ -2315,7 +2315,7 @@
    "st": "e",
    "u": "https://www.cmegroup.com/education/courses/introduction-to-bitcoin/what-are-bitcoin-futures.html",
    "n": "依「每月最後週五」規則推算，5 月合約尚未上市",
-   "added": null
+   "k": "expiry"
   },
   {
    "d": "2027-05-28",
@@ -2327,7 +2327,7 @@
    "st": "e",
    "u": "https://www.stat.gov.tw/News_NoticeCalendar_Content.aspx?Ln=1&MetaI_D=1331",
    "n": "往例 5 月下旬；推估",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-05-31",
@@ -2339,7 +2339,7 @@
    "st": "e",
    "u": "https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html",
    "n": "統計局慣例每月最後一日發布（含週末）；2027 日程未公布",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-05-31",
@@ -2351,7 +2351,7 @@
    "st": "o",
    "u": "https://www.nyse.com/markets/hours-calendars",
    "n": "NYSE 官方",
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2027-06-01",
@@ -2363,7 +2363,7 @@
    "st": "e",
    "u": "https://www.pmi.spglobal.com/Public/Release/ReleaseDates",
    "n": "S&P Global 2027 日程未公布；慣例每月首個工作日發布",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-06-01",
@@ -2375,7 +2375,7 @@
    "st": "o",
    "u": "https://www.cna.com.tw/postwrite/chi/444817",
    "n": "外貿協會公告 2027/6/1–6/4",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-06-03",
@@ -2387,7 +2387,7 @@
    "st": "e",
    "u": "https://www.ctee.com.tw/news/20260531700317-430105",
    "n": "2026 年為 6/4、2025 年為 6/3；2027 日期待董事會公告，推估 6 月初",
-   "added": null
+   "k": "agm"
   },
   {
    "d": "2027-06-04",
@@ -2399,7 +2399,7 @@
    "st": "e",
    "u": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Internet-Availability-of-Proxy-Materials-for-its-2026-Annual-Meeting-of-Shareholders-2026-RxW7z_q1DQ/default.aspx",
    "n": "依往年推估：2026 年為 6/5（週五）線上舉行",
-   "added": null
+   "k": "agm"
   },
   {
    "d": "2027-06-04",
@@ -2411,7 +2411,7 @@
    "st": "o",
    "u": "https://www.bls.gov/schedule/news_release/empsit.htm",
    "n": "BLS 官方行程",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-06-07",
@@ -2423,7 +2423,7 @@
    "st": "e",
    "u": "https://www.heygotrade.com/en/market-outlook/google-dividend/",
    "n": "依往年推估：2026 年登記日為 6/8",
-   "added": null
+   "k": "dividend"
   },
   {
    "d": "2027-06-07",
@@ -2435,7 +2435,7 @@
    "st": "e",
    "u": "https://www.sec.gov/Archives/edgar/data/0001050446/000119312526186895/d944734ddef14a.htm",
    "n": "依往年推估：2026 年為 6/8 線上舉行",
-   "added": null
+   "k": "agm"
   },
   {
    "d": "2027-06-07",
@@ -2447,7 +2447,7 @@
    "st": "e",
    "u": "https://www.macrumors.com/2026/03/23/apple-announces-wwdc-2026-dates/",
    "n": "依往年推估：2026 年為 6/8–12，通常 3 月下旬公告",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-06-08",
@@ -2459,7 +2459,7 @@
    "st": "o",
    "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
    "n": null,
-   "added": null
+   "k": null
   },
   {
    "d": "2027-06-09",
@@ -2471,7 +2471,7 @@
    "st": "e",
    "u": "https://studycli.org/chinese-holidays/2027/",
    "n": "國務院 2027 年放假通知尚未發布；端午為週三，可能僅休 1 日或調休，待公告",
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2027-06-09",
@@ -2483,7 +2483,7 @@
    "st": "e",
    "u": "https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html",
    "n": "統計局 2027 年發布日程通常 12 月底公布；依 2026 年模式推估（9-11 日）",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-06-09",
@@ -2495,7 +2495,7 @@
    "st": "e",
    "u": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/q4fy26pr.htm",
    "n": "依往年推估（6 月第二週）",
-   "added": null
+   "k": "dividend"
   },
   {
    "d": "2027-06-09",
@@ -2507,7 +2507,7 @@
    "st": "e",
    "u": "https://www.hkex.com.hk/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SEHK_CT_077_2026Jun01162846?sc_lang=en",
    "n": "2027 端午為 6/9（依港交所 2027 假期表交叉確認）；台灣證交所尚未公告",
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2027-06-09",
@@ -2519,7 +2519,7 @@
    "st": "o",
    "u": "https://www.hkex.com.hk/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SEHK_CT_077_2026Jun01162846?sc_lang=en",
    "n": null,
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2027-06-10",
@@ -2531,7 +2531,7 @@
    "st": "e",
    "u": "https://pr.tsmc.com/system/files/newspdf/attachment/8774bca661e0743c52a8bb9c62c82f9c86f2b444/September%202026%20%28C%29_final_wmn.pdf",
    "n": "通常 10 日前公布",
-   "added": null
+   "k": "revenue"
   },
   {
    "d": "2027-06-10",
@@ -2543,7 +2543,7 @@
    "st": "e",
    "u": "https://udn.com/news/story/7239/9815201",
    "n": "通常每月 10 日前後公布，遇假日順延",
-   "added": null
+   "k": "revenue"
   },
   {
    "d": "2027-06-10",
@@ -2555,7 +2555,7 @@
    "st": "o",
    "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/m_ref/mref260731a.pdf",
    "n": null,
-   "added": null
+   "k": null
   },
   {
    "d": "2027-06-10",
@@ -2567,7 +2567,7 @@
    "st": "o",
    "u": "https://www.bls.gov/schedule/news_release/cpi.htm",
    "n": "BLS 官方行程",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-06-15",
@@ -2579,7 +2579,7 @@
    "st": "e",
    "u": "https://www.sinotrade.com.tw/richclub/hotstock/2026%E5%8F%B0%E7%A9%8D%E9%9B%BB%E4%BD%95%E6%99%82%E9%99%A4%E6%81%AF-%E6%9C%AC%E6%AC%A1%E9%85%8D%E7%99%BC6%E5%85%83%E7%8F%BE%E9%87%91%E8%82%A1%E5%88%A9-%E6%9C%80%E5%BE%8C%E8%B2%B7%E9%80%B2%E6%97%A5-%E8%82%A1%E5%88%A9%E7%99%BC%E6%94%BE%E6%97%A5%E4%B8%80%E8%A1%A8%E6%95%B4%E7%90%86-67593afe22c5e1140c7f9212",
    "n": "往例 Q4 股利於隔年 6 月中除息；金額與日期待 2027/2 董事會公告",
-   "added": null
+   "k": "dividend"
   },
   {
    "d": "2027-06-17",
@@ -2591,7 +2591,7 @@
    "st": "e",
    "u": "https://www.cna.com.tw/news/afe/202606180143.aspx",
    "n": "2026 年為 6/18（週四）；2027 日期待 3 月董事會公告，推估 6 月中",
-   "added": null
+   "k": "agm"
   },
   {
    "d": "2027-06-17",
@@ -2603,7 +2603,7 @@
    "st": "e",
    "u": "https://applealmondrealty.com/posts/46822",
    "n": "往例 6 月中下旬週四（2026 年為 6/18）；推估",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-06-18",
@@ -2615,7 +2615,7 @@
    "st": "o",
    "u": "https://www.nyse.com/markets/hours-calendars",
    "n": "NYSE 官方",
-   "added": null
+   "k": "holiday"
   },
   {
    "d": "2027-06-21",
@@ -2627,7 +2627,7 @@
    "st": "e",
    "u": "https://www.yzwb.net/news/ch/202512/t20251222_302898.html",
    "n": "6/20 為週日，順延至週一",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-06-23",
@@ -2639,7 +2639,7 @@
    "st": "e",
    "u": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Stockholder-Meeting-Set-for-June-24-Individuals-Can-Participate-Online/default.aspx",
    "n": "依往年推估：2026 年為 6/24 線上舉行",
-   "added": null
+   "k": "agm"
   },
   {
    "d": "2027-06-25",
@@ -2651,7 +2651,7 @@
    "st": "o",
    "u": "https://www.tradingview.com/symbols/CME-BTC1%21/contracts",
    "n": null,
-   "added": null
+   "k": "expiry"
   },
   {
    "d": "2027-06-25",
@@ -2663,7 +2663,7 @@
    "st": "e",
    "u": "https://support.deribit.com/hc/en-us/articles/25944688876957-Contract-Introduction-Policy",
    "n": "依規則推算",
-   "added": null
+   "k": "expiry"
   },
   {
    "d": "2027-06-25",
@@ -2675,7 +2675,7 @@
    "st": "o",
    "u": "https://apps.bea.gov/API/signup/release_dates.json",
    "n": "BEA 官方行程",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-06-30",
@@ -2687,7 +2687,7 @@
    "st": "e",
    "u": "https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html",
    "n": "統計局慣例每月最後一日發布（含週末）；2027 日程未公布",
-   "added": null
+   "k": null
   },
   {
    "d": "2027-06-30",
@@ -2699,7 +2699,7 @@
    "st": "e",
    "u": "https://www.crfb.org/blogs/upcoming-congressional-fiscal-policy-deadlines",
    "n": "CRFB 引 BPC 推估 2027 年冬季至仲夏間觸及上限，財政部非常措施可再拖數月；此日期為佔位非實際期限",
-   "added": null
+   "k": null
   }
  ]
 }

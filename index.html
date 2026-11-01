@@ -123,13 +123,13 @@
     <a href="#" id="selNone">全不選</a>
   </div>
   <div class="legend">
-    <span class="est">虛線</span> = 推估日期，公司或機構尚未正式公告；<span class="badge new">新</span> = 最近 7 天新增或更動
+    <span class="est">虛線</span> = 推估日期，公司或機構尚未正式公告；<span class="badge">自動</span> = 程式每天從證交所／Nasdaq 抓到的；<span class="badge new">新</span> <span class="badge new">改</span> = 最近 7 天新增或日期變動
   </div>
 
   <main id="main"></main>
 
   <footer>
-    持股清單在 <code>data/holdings.json</code>，事件在 <code>data/events.json</code>，修改後 GitHub Pages 會在一兩分鐘內更新。<br>
+    持股清單在 <code>data/holdings.json</code>，人工整理的事件在 <code>data/events_manual.json</code>；<code>data/events_auto.json</code> 由 GitHub Actions 每天台灣時間 07:00 與 19:00 自動更新（台股股東會、重大訊息、休市日、處置股；美股財報日、除息日）。<br>
     內容僅供個人行程整理，日期以各公司與機構公告為準，不構成投資建議。
   </footer>
 </div>
@@ -167,13 +167,23 @@ let state = {
 
 async function load() {
   const bust = "?v=" + Date.now();
-  const [h, e] = await Promise.all([
+  const [h, man, auto] = await Promise.all([
     fetch("data/holdings.json"+bust).then(r=>r.json()),
-    fetch("data/events.json"+bust).then(r=>r.json()),
+    fetch("data/events_manual.json"+bust).then(r=>r.json()),
+    fetch("data/events_auto.json"+bust).then(r=>r.ok ? r.json() : {events:[]}).catch(()=>({events:[]})),
   ]);
   HOLD = h;
-  if (Array.isArray(e)) { EV = e; } else { EV = e.events || []; META = e; }
-  EV = EV.filter(x => x && x.d && x.t).sort((a,b)=> a.d.localeCompare(b.d) || (a.sym||"").localeCompare(b.sym||""));
+  const M = Array.isArray(man) ? man : (man.events || []);
+  const A = (auto.events || []).map(x => ({...x, src:"auto"}));
+  META = { updated: auto.updated || man.updated, manual: man.updated, sources: auto.sources || {} };
+  // 自動抓到的正式日期，會蓋掉人工檔裡同一檔、同類型、日期相近的「推估」
+  const filteredM = M.filter(m => {
+    if (m.k === "holiday" && /^台股/.test(m.t) && A.some(a => a.k === "holiday" && a.d === m.d)) return false;
+    if (!m.sym || !m.k) return true;
+    const win = m.st === "e" ? 21 : 0;   // 推估：21 天內視為同一事件；官方：同一天才算重複
+    return !A.some(a => a.sym === m.sym && a.k === m.k && Math.abs(parse(a.d) - parse(m.d)) <= win*86400000);
+  });
+  EV = [...filteredM, ...A].filter(x => x && x.d && x.t).sort((a,b)=> a.d.localeCompare(b.d) || (a.sym||"").localeCompare(b.sym||""));
   const savedH = store.get("hold", null);
   state.hold = new Set(savedH ? savedH.filter(s => HOLD.some(x=>x.sym===s)) : HOLD.map(x=>x.sym));
   const savedC = store.get("cats", null);
@@ -183,8 +193,10 @@ async function load() {
   renderChips();
   bind();
   render();
-  const upd = META.updated ? `資料更新：${META.updated}　` : "";
-  document.getElementById("sub").textContent = `${upd}共 ${EV.length} 筆事件 · 今天 ${todayStr}（${WD[new Date().getDay()]}）`;
+  const upd = META.updated ? `自動更新：${META.updated}　` : "";
+  const bad = Object.entries(META.sources).filter(([k,v]) => !v.ok).map(([k]) => k);
+  const warn = bad.length ? `　⚠ 上次抓取失敗：${bad.join("、")}（沿用舊資料）` : "";
+  document.getElementById("sub").textContent = `${upd}共 ${EV.length} 筆事件 · 今天 ${todayStr}（${WD[new Date().getDay()]}）${warn}`;
 }
 
 function holdOf(sym){ return HOLD.find(h=>h.sym===sym); }
@@ -200,11 +212,9 @@ function labelOf(ev){
   if (h) return h.sym;
   const c = CATS.find(c=>c.k===catOf(ev)); return c ? c.name : "其他";
 }
-function isNew(ev){
-  if (!ev.added) return false;
-  const d = parse(ev.added), now = new Date();
-  return (now - d) / 86400000 <= 7;
-}
+function within7(s){ if (!s) return false; return (new Date() - parse(s)) / 86400000 <= 7; }
+function isNew(ev){ return within7(ev.added); }
+function isChanged(ev){ return !isNew(ev) && within7(ev.changed); }
 
 function renderChips(){
   const hc = document.getElementById("holdings");
@@ -302,7 +312,8 @@ function evHTML(ev){
   if (ev.pl) meta.push(ev.pl);
   if (ev.n) meta.push(ev.n);
   if (ev.u) meta.push(`<a href="${ev.u}" target="_blank" rel="noopener">來源</a>`);
-  const badges = (ev.st==="e" ? `<span class="badge">預估</span>` : "") + (isNew(ev) ? `<span class="badge new">新</span>` : "");
+  const badges = (ev.st==="e" ? `<span class="badge">預估</span>` : "") + (ev.src==="auto" ? `<span class="badge">自動</span>` : "")
+    + (isNew(ev) ? `<span class="badge new">新</span>` : "") + (isChanged(ev) ? `<span class="badge new">改</span>` : "");
   return `<div class="ev ${ev.st==="e"?"est":""} ${past?"past":""}">${tag}<div><div class="t">${esc(ev.t)}${badges}</div>${meta.length?`<div class="m">${meta.map(m=>`<span>${m}</span>`).join("")}</div>`:""}</div></div>`;
 }
 function esc(s){ return String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
