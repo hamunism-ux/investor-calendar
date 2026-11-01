@@ -134,10 +134,16 @@ def src_nasdaq_earn():
     for sym, name in US.items():
         s = sym.replace(".", "-")
         try:
-            data = get_json(f"https://api.nasdaq.com/api/analyst/{s}/earnings-date")
+            data = None
+            for cand in dict.fromkeys([s, sym, sym.replace(".", "/")]):   # BRK.B 之類的代號，Nasdaq 可能用不同寫法
+                data = get_json(f"https://api.nasdaq.com/api/analyst/{cand}/earnings-date")
+                if data.get("data"): s = cand; break
+                time.sleep(0.5)
             txt = json.dumps(data, ensure_ascii=False)
             d = None
             dd = (data.get("data") or {})
+            if "hasn't provided" in (dd.get("reportText") or ""):
+                print(f"  {sym}: Nasdaq 尚未提供下次財報日（公司未公告），略過"); continue
             for key in ("dateReportEarnings", "earningsDate", "date"):
                 if dd.get(key): d = us_date(dd[key]); break
             if not d:
@@ -162,8 +168,12 @@ def src_nasdaq_div():
     for sym, name in US.items():
         s = sym.replace(".", "-")
         try:
-            data = get_json(f"https://api.nasdaq.com/api/quote/{s}/dividends", params={"assetclass": "stocks"})
-            rows = ((data.get("data") or {}).get("dividends") or {}).get("rows") or []
+            rows = []
+            for cand in dict.fromkeys([s, sym, sym.replace(".", "/")]):
+                data = get_json(f"https://api.nasdaq.com/api/quote/{cand}/dividends", params={"assetclass": "stocks"})
+                rows = ((data.get("data") or {}).get("dividends") or {}).get("rows") or []
+                if data.get("data"): s = cand; break
+                time.sleep(0.5)
             for r in rows:
                 d = us_date(r.get("exOrEffDate"))
                 if not d or d < KEEP_FROM: continue
