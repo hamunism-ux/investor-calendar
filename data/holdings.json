@@ -1,0 +1,16 @@
+[
+  {"sym": "2330",   "name": "台積電",        "market": "tw",     "color": "#2563eb"},
+  {"sym": "2886",   "name": "兆豐金",        "market": "tw",     "color": "#0ea5e9"},
+  {"sym": "0700",   "name": "騰訊控股",      "market": "hk",     "color": "#16a34a"},
+  {"sym": "CSI300", "name": "易方達滬深300", "market": "cn",     "color": "#dc2626"},
+  {"sym": "GOOGL",  "name": "Alphabet",      "market": "us",     "color": "#f59e0b"},
+  {"sym": "AAPL",   "name": "Apple",         "market": "us",     "color": "#64748b"},
+  {"sym": "MSFT",   "name": "Microsoft",     "market": "us",     "color": "#7c3aed"},
+  {"sym": "NVDA",   "name": "NVIDIA",        "market": "us",     "color": "#65a30d"},
+  {"sym": "TSLA",   "name": "Tesla",         "market": "us",     "color": "#e11d48"},
+  {"sym": "BRK.B",  "name": "Berkshire",     "market": "us",     "color": "#78350f"},
+  {"sym": "MSTR",   "name": "Strategy",      "market": "us",     "color": "#ea580c"},
+  {"sym": "BTC",    "name": "Bitcoin",       "market": "crypto", "color": "#f97316"},
+  {"sym": "ETH",    "name": "Ethereum",      "market": "crypto", "color": "#6366f1"},
+  {"sym": "ADA",    "name": "Cardano",       "market": "crypto", "color": "#0891b2"}
+]

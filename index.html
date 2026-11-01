@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>我的投資行事曆</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #ffffff; --text: #1a1d23; --muted: #6b7280; --line: #e5e7eb;
+    --accent: #2563eb; --today: #fff7d6; --today-line: #f1c232; --est: #9ca3af;
+    --chip-bg: #eef0f3; --macro: #374151; --tech: #0f766e; --politics: #7c2d12; --holiday: #a3a3a3;
+    --shadow: 0 1px 2px rgba(0,0,0,.05);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0f1115; --card: #171a21; --text: #e6e8ec; --muted: #9aa3b2; --line: #2a2f3a;
+      --accent: #60a5fa; --today: #2b2a1a; --today-line: #d4b24c; --est: #6b7280;
+      --chip-bg: #232834; --macro: #c7cdd8; --tech: #5eead4; --politics: #fdba74; --holiday: #737373;
+      --shadow: none;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--text); }
+  body { font: 15px/1.5 -apple-system, "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", system-ui, sans-serif; padding: 0 16px 60px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .wrap { max-width: 980px; margin: 0 auto; }
+  header { padding: 22px 0 10px; }
+  h1 { font-size: 22px; margin: 0 0 4px; letter-spacing: .5px; }
+  .sub { color: var(--muted); font-size: 13px; }
+  .bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 12px 0; }
+  .seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--card); }
+  .seg button { border: 0; background: transparent; color: var(--text); padding: 6px 12px; font-size: 14px; cursor: pointer; }
+  .seg button.on { background: var(--accent); color: #fff; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0; }
+  .chip { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--line); background: var(--card); font-size: 13px; cursor: pointer; user-select: none; opacity: .45; }
+  .chip.on { opacity: 1; border-color: transparent; }
+  .chip .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+  .chip.cat { opacity: 1; }
+  .chip.cat.off { opacity: .4; }
+  .tools { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; font-size: 13px; color: var(--muted); }
+  .tools label { display: inline-flex; align-items: center; gap: 4px; cursor: pointer; }
+  input[type=search] { padding: 6px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--card); color: var(--text); font-size: 14px; width: 180px; }
+  .legend { font-size: 12px; color: var(--muted); margin: 4px 0 10px; }
+  .legend .est { border-bottom: 2px dashed var(--est); }
+
+  /* list view */
+  .day { background: var(--card); border: 1px solid var(--line); border-radius: 12px; margin: 10px 0; box-shadow: var(--shadow); overflow: hidden; }
+  .day.today { border-color: var(--today-line); }
+  .dayhead { display: flex; align-items: baseline; gap: 10px; padding: 8px 14px; border-bottom: 1px solid var(--line); background: color-mix(in srgb, var(--card) 85%, var(--bg)); font-size: 14px; }
+  .day.today .dayhead { background: var(--today); }
+  .dayhead b { font-size: 15px; }
+  .dayhead .wd { color: var(--muted); }
+  .dayhead .rel { margin-left: auto; color: var(--muted); font-size: 12px; }
+  .ev { display: grid; grid-template-columns: auto 1fr; gap: 10px; padding: 9px 14px; border-top: 1px solid var(--line); align-items: start; }
+  .ev:first-of-type { border-top: 0; }
+  .tag { font-size: 12px; font-weight: 600; color: #fff; padding: 2px 8px; border-radius: 6px; white-space: nowrap; margin-top: 2px; min-width: 56px; text-align: center; }
+  .tag.cat { background: var(--chip-bg); color: var(--text); }
+  .ev .t { font-weight: 500; }
+  .ev.est .t { text-decoration: underline dashed var(--est); text-underline-offset: 3px; }
+  .ev .m { color: var(--muted); font-size: 13px; margin-top: 2px; }
+  .ev .m span + span::before { content: " · "; }
+  .badge { font-size: 11px; padding: 1px 6px; border-radius: 4px; border: 1px solid var(--line); color: var(--muted); margin-left: 6px; vertical-align: 1px; }
+  .badge.new { border-color: #ef4444; color: #ef4444; }
+  .badge.past { opacity: .7; }
+  .ev.past { opacity: .55; }
+  .empty { color: var(--muted); padding: 40px 0; text-align: center; }
+
+  /* calendar view */
+  .cal { background: var(--card); border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow); overflow: hidden; }
+  .calhead { display: flex; align-items: center; justify-content: space-between; padding: 10px 14px; border-bottom: 1px solid var(--line); }
+  .calhead b { font-size: 17px; }
+  .calhead button { border: 1px solid var(--line); background: var(--card); color: var(--text); border-radius: 8px; padding: 4px 10px; cursor: pointer; }
+  .grid { display: grid; grid-template-columns: repeat(7, 1fr); }
+  .grid .wdh { text-align: center; font-size: 12px; color: var(--muted); padding: 6px 0; border-bottom: 1px solid var(--line); }
+  .cell { min-height: 92px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 4px; font-size: 12px; cursor: pointer; }
+  .cell:nth-child(7n) { border-right: 0; }
+  .cell.out { opacity: .35; }
+  .cell.today { background: var(--today); }
+  .cell.sel { outline: 2px solid var(--accent); outline-offset: -2px; }
+  .cell .n { font-weight: 600; margin-bottom: 2px; }
+  .pill { display: block; color: #fff; border-radius: 4px; padding: 1px 4px; margin: 2px 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 11px; }
+  .pill.est { opacity: .75; border: 1px dashed rgba(255,255,255,.7); }
+  .pill.cat { background: var(--chip-bg); color: var(--text); }
+  .more { color: var(--muted); font-size: 11px; }
+  #selday { margin-top: 12px; }
+  @media (max-width: 640px) {
+    .cell { min-height: 64px; padding: 2px; }
+    .pill { font-size: 0; height: 6px; padding: 0; margin: 2px 1px; display: inline-block; width: 14px; }
+    .more { display: none; }
+    .tag { min-width: 0; }
+  }
+  footer { color: var(--muted); font-size: 12px; margin-top: 30px; line-height: 1.7; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>我的投資行事曆</h1>
+    <div class="sub" id="sub">資料載入中…</div>
+  </header>
+
+  <div class="bar">
+    <div class="seg" id="view">
+      <button data-v="list" class="on">列表</button>
+      <button data-v="cal">月曆</button>
+    </div>
+    <div class="seg" id="range">
+      <button data-r="week">本週</button>
+      <button data-r="month">本月</button>
+      <button data-r="all" class="on">全部</button>
+    </div>
+    <input type="search" id="q" placeholder="搜尋事件…">
+  </div>
+
+  <div class="chips" id="holdings"></div>
+  <div class="chips" id="cats"></div>
+
+  <div class="tools">
+    <label><input type="checkbox" id="showEst" checked> 包含預估日期</label>
+    <label><input type="checkbox" id="showPast"> 顯示已結束</label>
+    <a href="#" id="selAll">全選</a>
+    <a href="#" id="selNone">全不選</a>
+  </div>
+  <div class="legend">
+    <span class="est">虛線</span> = 推估日期，公司或機構尚未正式公告；<span class="badge new">新</span> = 最近 7 天新增或更動
+  </div>
+
+  <main id="main"></main>
+
+  <footer>
+    持股清單在 <code>data/holdings.json</code>，事件在 <code>data/events.json</code>，修改後 GitHub Pages 會在一兩分鐘內更新。<br>
+    內容僅供個人行程整理，日期以各公司與機構公告為準，不構成投資建議。
+  </footer>
+</div>
+
+<script>
+const CATS = [
+  {k:"macro",    name:"總經／央行", cls:"macro"},
+  {k:"tech",     name:"科技大會",   cls:"tech"},
+  {k:"politics", name:"政治／政策", cls:"politics"},
+  {k:"crypto",   name:"幣圈監管／大會", cls:"crypto"},
+  {k:"holiday",  name:"休市日",     cls:"holiday"},
+];
+const WD = ["日","一","二","三","四","五","六"];
+const pad = n => String(n).padStart(2,"0");
+const fmt = d => `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
+const parse = s => { const [y,m,d] = s.split("-").map(Number); return new Date(y, m-1, d); };
+const todayStr = fmt(new Date());
+const store = {
+  get(k, dflt){ try { const v = localStorage.getItem("ic:"+k); return v===null ? dflt : JSON.parse(v); } catch(e){ return dflt; } },
+  set(k, v){ try { localStorage.setItem("ic:"+k, JSON.stringify(v)); } catch(e){} }
+};
+
+let HOLD = [], EV = [], META = {};
+let state = {
+  view: store.get("view","list"),
+  range: store.get("range","all"),
+  q: "",
+  hold: null,          // Set of enabled syms
+  cats: null,          // Set of enabled cats
+  showEst: store.get("showEst", true),
+  showPast: store.get("showPast", false),
+  calMonth: null,      // "YYYY-MM"
+  sel: null,           // selected day in calendar
+};
+
+async function load() {
+  const bust = "?v=" + Date.now();
+  const [h, e] = await Promise.all([
+    fetch("data/holdings.json"+bust).then(r=>r.json()),
+    fetch("data/events.json"+bust).then(r=>r.json()),
+  ]);
+  HOLD = h;
+  if (Array.isArray(e)) { EV = e; } else { EV = e.events || []; META = e; }
+  EV = EV.filter(x => x && x.d && x.t).sort((a,b)=> a.d.localeCompare(b.d) || (a.sym||"").localeCompare(b.sym||""));
+  const savedH = store.get("hold", null);
+  state.hold = new Set(savedH ? savedH.filter(s => HOLD.some(x=>x.sym===s)) : HOLD.map(x=>x.sym));
+  const savedC = store.get("cats", null);
+  state.cats = new Set(savedC || CATS.map(c=>c.k));
+  const firstFuture = EV.find(x => x.d >= todayStr) || EV[EV.length-1];
+  state.calMonth = todayStr.slice(0,7);
+  renderChips();
+  bind();
+  render();
+  const upd = META.updated ? `資料更新：${META.updated}　` : "";
+  document.getElementById("sub").textContent = `${upd}共 ${EV.length} 筆事件 · 今天 ${todayStr}（${WD[new Date().getDay()]}）`;
+}
+
+function holdOf(sym){ return HOLD.find(h=>h.sym===sym); }
+function catOf(ev){
+  if (ev.sym && holdOf(ev.sym)) return null;
+  if (ev.c === "holiday" || /休市/.test(ev.t)) return "holiday";
+  if (["macro","tech","politics","crypto"].includes(ev.c)) return ev.c;
+  return "macro";
+}
+function colorOf(ev){ const h = ev.sym && holdOf(ev.sym); return h ? h.color : null; }
+function labelOf(ev){
+  const h = ev.sym && holdOf(ev.sym);
+  if (h) return h.sym;
+  const c = CATS.find(c=>c.k===catOf(ev)); return c ? c.name : "其他";
+}
+function isNew(ev){
+  if (!ev.added) return false;
+  const d = parse(ev.added), now = new Date();
+  return (now - d) / 86400000 <= 7;
+}
+
+function renderChips(){
+  const hc = document.getElementById("holdings");
+  hc.innerHTML = HOLD.map(h => `<span class="chip ${state.hold.has(h.sym)?"on":""}" data-sym="${h.sym}" style="${state.hold.has(h.sym)?`background:${h.color}20;border-color:${h.color}`:""}"><span class="dot" style="background:${h.color}"></span>${h.sym} <span style="color:var(--muted)">${h.name}</span></span>`).join("");
+  const cc = document.getElementById("cats");
+  cc.innerHTML = CATS.map(c => `<span class="chip cat ${state.cats.has(c.k)?"":"off"}" data-cat="${c.k}">${c.name}</span>`).join("");
+}
+
+function bind(){
+  document.getElementById("holdings").onclick = e => {
+    const el = e.target.closest(".chip"); if(!el) return;
+    const s = el.dataset.sym;
+    state.hold.has(s) ? state.hold.delete(s) : state.hold.add(s);
+    store.set("hold",[...state.hold]); renderChips(); render();
+  };
+  document.getElementById("cats").onclick = e => {
+    const el = e.target.closest(".chip"); if(!el) return;
+    const k = el.dataset.cat;
+    state.cats.has(k) ? state.cats.delete(k) : state.cats.add(k);
+    store.set("cats",[...state.cats]); renderChips(); render();
+  };
+  document.getElementById("selAll").onclick = e => { e.preventDefault(); state.hold = new Set(HOLD.map(h=>h.sym)); state.cats = new Set(CATS.map(c=>c.k)); store.set("hold",[...state.hold]); store.set("cats",[...state.cats]); renderChips(); render(); };
+  document.getElementById("selNone").onclick = e => { e.preventDefault(); state.hold = new Set(); state.cats = new Set(); store.set("hold",[]); store.set("cats",[]); renderChips(); render(); };
+  document.querySelectorAll("#view button").forEach(b => b.onclick = () => { state.view = b.dataset.v; store.set("view", state.view); syncSeg(); render(); });
+  document.querySelectorAll("#range button").forEach(b => b.onclick = () => { state.range = b.dataset.r; store.set("range", state.range); syncSeg(); render(); });
+  document.getElementById("showEst").checked = state.showEst;
+  document.getElementById("showPast").checked = state.showPast;
+  document.getElementById("showEst").onchange = e => { state.showEst = e.target.checked; store.set("showEst", state.showEst); render(); };
+  document.getElementById("showPast").onchange = e => { state.showPast = e.target.checked; store.set("showPast", state.showPast); render(); };
+  document.getElementById("q").oninput = e => { state.q = e.target.value.trim().toLowerCase(); render(); };
+  syncSeg();
+}
+function syncSeg(){
+  document.querySelectorAll("#view button").forEach(b => b.classList.toggle("on", b.dataset.v===state.view));
+  document.querySelectorAll("#range button").forEach(b => b.classList.toggle("on", b.dataset.r===state.range));
+}
+
+function visible(ev){
+  const c = catOf(ev);
+  if (c) { if (!state.cats.has(c)) return false; }
+  else if (!state.hold.has(ev.sym)) return false;
+  if (!state.showEst && ev.st === "e") return false;
+  if (state.q) {
+    const hay = [ev.t, ev.sym, ev.n, holdOf(ev.sym||"")?.name].join(" ").toLowerCase();
+    if (!hay.includes(state.q)) return false;
+  }
+  return true;
+}
+function endOf(ev){ return ev.e && ev.e > ev.d ? ev.e : ev.d; }
+function rangeBounds(){
+  const t = new Date(); t.setHours(0,0,0,0);
+  if (state.range === "week") {
+    const s = new Date(t); s.setDate(t.getDate() - ((t.getDay()+6)%7)); // Monday
+    const e = new Date(s); e.setDate(s.getDate()+6);
+    return [fmt(s), fmt(e)];
+  }
+  if (state.range === "month") {
+    return [fmt(new Date(t.getFullYear(), t.getMonth(), 1)), fmt(new Date(t.getFullYear(), t.getMonth()+1, 0))];
+  }
+  return null;
+}
+
+function render(){
+  const main = document.getElementById("main");
+  main.innerHTML = "";
+  if (state.view === "cal") return renderCal(main);
+  const bounds = rangeBounds();
+  let list = EV.filter(visible);
+  if (bounds) list = list.filter(ev => endOf(ev) >= bounds[0] && ev.d <= bounds[1]);
+  else if (!state.showPast) list = list.filter(ev => endOf(ev) >= todayStr);
+  if (!list.length) { main.innerHTML = `<div class="empty">這個範圍沒有事件。試試打開「顯示已結束」或切到「全部」。</div>`; return; }
+  const groups = new Map();
+  for (const ev of list) { if (!groups.has(ev.d)) groups.set(ev.d, []); groups.get(ev.d).push(ev); }
+  const frag = document.createDocumentFragment();
+  for (const [d, evs] of groups) {
+    const dt = parse(d);
+    const diff = Math.round((dt - parse(todayStr)) / 86400000);
+    const rel = diff === 0 ? "今天" : diff === 1 ? "明天" : diff > 0 ? `${diff} 天後` : `${-diff} 天前`;
+    const box = document.createElement("div");
+    box.className = "day" + (d === todayStr ? " today" : "");
+    box.innerHTML = `<div class="dayhead"><b>${d.slice(5).replace("-","/")}</b><span class="wd">${dt.getFullYear()} 週${WD[dt.getDay()]}</span><span class="rel">${rel}</span></div>` +
+      evs.map(evHTML).join("");
+    frag.appendChild(box);
+  }
+  main.appendChild(frag);
+}
+
+function evHTML(ev){
+  const col = colorOf(ev);
+  const tag = col ? `<span class="tag" style="background:${col}">${ev.sym}</span>` : `<span class="tag cat">${labelOf(ev)}</span>`;
+  const past = endOf(ev) < todayStr;
+  const meta = [];
+  if (ev.e && ev.e > ev.d) meta.push(`至 ${ev.e.slice(5).replace("-","/")}`);
+  if (ev.tm) meta.push(ev.tm);
+  if (ev.pl) meta.push(ev.pl);
+  if (ev.n) meta.push(ev.n);
+  if (ev.u) meta.push(`<a href="${ev.u}" target="_blank" rel="noopener">來源</a>`);
+  const badges = (ev.st==="e" ? `<span class="badge">預估</span>` : "") + (isNew(ev) ? `<span class="badge new">新</span>` : "");
+  return `<div class="ev ${ev.st==="e"?"est":""} ${past?"past":""}">${tag}<div><div class="t">${esc(ev.t)}${badges}</div>${meta.length?`<div class="m">${meta.map(m=>`<span>${m}</span>`).join("")}</div>`:""}</div></div>`;
+}
+function esc(s){ return String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+
+function renderCal(main){
+  const [y, m] = state.calMonth.split("-").map(Number);
+  const first = new Date(y, m-1, 1);
+  const start = new Date(first); start.setDate(1 - first.getDay());
+  const byDay = new Map();
+  for (const ev of EV.filter(visible)) {
+    let d = parse(ev.d); const end = parse(endOf(ev));
+    while (d <= end) { const k = fmt(d); if (!byDay.has(k)) byDay.set(k, []); byDay.get(k).push(ev); d.setDate(d.getDate()+1); }
+  }
+  let cells = "";
+  for (let i=0;i<42;i++){
+    const d = new Date(start); d.setDate(start.getDate()+i);
+    const k = fmt(d);
+    if (i===35 && d.getMonth() !== m-1) break;
+    const evs = byDay.get(k) || [];
+    const pills = evs.slice(0,4).map(ev => { const col = colorOf(ev); return `<span class="pill ${ev.st==="e"?"est":""} ${col?"":"cat"}" style="${col?`background:${col}`:""}" title="${esc(ev.t)}">${col?ev.sym+" ":""}${esc(ev.t)}</span>`; }).join("");
+    const more = evs.length>4 ? `<span class="more">+${evs.length-4}</span>` : "";
+    cells += `<div class="cell ${d.getMonth()!==m-1?"out":""} ${k===todayStr?"today":""} ${k===state.sel?"sel":""}" data-d="${k}"><div class="n">${d.getDate()}</div>${pills}${more}</div>`;
+  }
+  const cal = document.createElement("div"); cal.className = "cal";
+  cal.innerHTML = `<div class="calhead"><button id="prev">‹</button><b>${y} 年 ${m} 月</b><div><button id="tod">今天</button> <button id="next">›</button></div></div>
+    <div class="grid">${WD.map(w=>`<div class="wdh">${w}</div>`).join("")}${cells}</div>`;
+  main.appendChild(cal);
+  const sel = document.createElement("div"); sel.id = "selday"; main.appendChild(sel);
+  const showSel = () => {
+    if (!state.sel) { sel.innerHTML = `<div class="empty" style="padding:16px">點一天看當天事件</div>`; return; }
+    const evs = (byDay.get(state.sel) || []);
+    const dt = parse(state.sel);
+    sel.innerHTML = `<div class="day"><div class="dayhead"><b>${state.sel.slice(5).replace("-","/")}</b><span class="wd">週${WD[dt.getDay()]}</span></div>${evs.length ? evs.map(evHTML).join("") : `<div class="empty" style="padding:16px">沒有事件</div>`}</div>`;
+  };
+  showSel();
+  cal.querySelector("#prev").onclick = () => { state.calMonth = fmt(new Date(y, m-2, 1)).slice(0,7); render(); };
+  cal.querySelector("#next").onclick = () => { state.calMonth = fmt(new Date(y, m, 1)).slice(0,7); render(); };
+  cal.querySelector("#tod").onclick = () => { state.calMonth = todayStr.slice(0,7); state.sel = todayStr; render(); };
+  cal.querySelector(".grid").onclick = e => { const c = e.target.closest(".cell"); if (!c) return; state.sel = c.dataset.d; cal.querySelectorAll(".cell").forEach(x=>x.classList.toggle("sel", x.dataset.d===state.sel)); showSel(); };
+}
+
+load().catch(err => { document.getElementById("sub").textContent = "資料載入失敗：" + err.message + "（請確認 data/events.json 存在且為正確 JSON）"; });
+</script>
+</body>
+</html>
