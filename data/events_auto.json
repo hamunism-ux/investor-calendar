@@ -23,12 +23,12 @@
   },
   "nasdaq-earn": {
    "ok": true,
-   "n": 2,
+   "n": 1,
    "at": "2026-11-02"
   },
   "nasdaq-div": {
    "ok": true,
-   "n": 1,
+   "n": 2,
    "at": "2026-11-02"
   }
  },
@@ -124,21 +124,6 @@
    "changed": null
   },
   {
-   "id": "nasdaq-earn:AAPL",
-   "d": "2026-11-02",
-   "e": null,
-   "c": "us",
-   "sym": "AAPL",
-   "t": "Apple（AAPL）財報日",
-   "k": "earnings",
-   "tm": null,
-   "st": "o",
-   "u": "https://www.nasdaq.com/market-activity/stocks/aapl/earnings",
-   "n": "Nasdaq 公布；若為預估值，Nasdaq 會在公司正式公告後更新",
-   "added": "2026-11-01",
-   "changed": null
-  },
-  {
    "id": "nasdaq-earn:NVDA",
    "d": "2026-11-17",
    "e": null,
@@ -167,6 +152,20 @@
    "n": "每股 $0.98；發放 2026-12-10",
    "added": "2026-11-01",
    "changed": null
+  },
+  {
+   "id": "nasdaq-div:GOOGL:2026-12-07",
+   "d": "2026-12-07",
+   "e": null,
+   "c": "us",
+   "sym": "GOOGL",
+   "t": "Alphabet（GOOGL）除息日",
+   "k": "dividend",
+   "tm": null,
+   "st": "o",
+   "u": "https://www.nasdaq.com/market-activity/stocks/googl/dividend-history",
+   "n": "每股 $0.22；發放 2026-12-14",
+   "added": "2026-11-02"
   },
   {
    "id": "twse-hol:2026-12-25:d59f484131",
