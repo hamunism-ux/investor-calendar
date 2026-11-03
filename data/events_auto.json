@@ -1,35 +1,35 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-03",
  "sources": {
   "twse-hol": {
    "ok": true,
    "n": 7,
-   "at": "2026-11-02"
+   "at": "2026-11-03"
   },
   "twse-agm": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-02"
+   "at": "2026-11-03"
   },
   "mops": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-02"
+   "at": "2026-11-03"
   },
   "twse-punish": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-02"
+   "at": "2026-11-03"
   },
   "nasdaq-earn": {
    "ok": true,
    "n": 1,
-   "at": "2026-11-02"
+   "at": "2026-11-03"
   },
   "nasdaq-div": {
    "ok": true,
    "n": 2,
-   "at": "2026-11-02"
+   "at": "2026-11-03"
   }
  },
  "events": [
@@ -165,7 +165,8 @@
    "st": "o",
    "u": "https://www.nasdaq.com/market-activity/stocks/googl/dividend-history",
    "n": "每股 $0.22；發放 2026-12-14",
-   "added": "2026-11-02"
+   "added": "2026-11-02",
+   "changed": null
   },
   {
    "id": "twse-hol:2026-12-25:d59f484131",
