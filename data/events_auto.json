@@ -28,7 +28,7 @@
   },
   "nasdaq-div": {
    "ok": true,
-   "n": 2,
+   "n": 3,
    "at": "2026-11-04"
   }
  },
@@ -122,6 +122,20 @@
    "n": "臺灣光復暨金門古寧頭大捷紀念日為10月25日適逢星期日，於10月26日（星期一）補假。",
    "added": "2026-11-01",
    "changed": null
+  },
+  {
+   "id": "nasdaq-div:AAPL:2026-11-12",
+   "d": "2026-11-12",
+   "e": null,
+   "c": "us",
+   "sym": "AAPL",
+   "t": "Apple（AAPL）除息日",
+   "k": "dividend",
+   "tm": null,
+   "st": "o",
+   "u": "https://www.nasdaq.com/market-activity/stocks/aapl/dividend-history",
+   "n": "每股 $0.27；發放 2026-11-16",
+   "added": "2026-11-04"
   },
   {
    "id": "nasdaq-earn:NVDA",
