@@ -1,35 +1,35 @@
 {
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "sources": {
   "twse-hol": {
    "ok": true,
    "n": 7,
-   "at": "2026-11-04"
+   "at": "2026-11-05"
   },
   "twse-agm": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-04"
+   "at": "2026-11-05"
   },
   "mops": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-04"
+   "at": "2026-11-05"
   },
   "twse-punish": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-04"
+   "at": "2026-11-05"
   },
   "nasdaq-earn": {
    "ok": true,
    "n": 1,
-   "at": "2026-11-04"
+   "at": "2026-11-05"
   },
   "nasdaq-div": {
    "ok": true,
-   "n": 3,
-   "at": "2026-11-04"
+   "n": 0,
+   "at": "2026-11-05"
   }
  },
  "events": [
@@ -124,20 +124,6 @@
    "changed": null
   },
   {
-   "id": "nasdaq-div:AAPL:2026-11-12",
-   "d": "2026-11-12",
-   "e": null,
-   "c": "us",
-   "sym": "AAPL",
-   "t": "Apple（AAPL）除息日",
-   "k": "dividend",
-   "tm": null,
-   "st": "o",
-   "u": "https://www.nasdaq.com/market-activity/stocks/aapl/dividend-history",
-   "n": "每股 $0.27；發放 2026-11-16",
-   "added": "2026-11-04"
-  },
-  {
    "id": "nasdaq-earn:NVDA",
    "d": "2026-11-17",
    "e": null,
@@ -150,36 +136,6 @@
    "u": "https://www.nasdaq.com/market-activity/stocks/nvda/earnings",
    "n": "Nasdaq 公布；若為預估值，Nasdaq 會在公司正式公告後更新",
    "added": "2026-11-01",
-   "changed": null
-  },
-  {
-   "id": "nasdaq-div:MSFT:2026-11-19",
-   "d": "2026-11-19",
-   "e": null,
-   "c": "us",
-   "sym": "MSFT",
-   "t": "Microsoft（MSFT）除息日",
-   "k": "dividend",
-   "tm": null,
-   "st": "o",
-   "u": "https://www.nasdaq.com/market-activity/stocks/msft/dividend-history",
-   "n": "每股 $0.98；發放 2026-12-10",
-   "added": "2026-11-01",
-   "changed": null
-  },
-  {
-   "id": "nasdaq-div:GOOGL:2026-12-07",
-   "d": "2026-12-07",
-   "e": null,
-   "c": "us",
-   "sym": "GOOGL",
-   "t": "Alphabet（GOOGL）除息日",
-   "k": "dividend",
-   "tm": null,
-   "st": "o",
-   "u": "https://www.nasdaq.com/market-activity/stocks/googl/dividend-history",
-   "n": "每股 $0.22；發放 2026-12-14",
-   "added": "2026-11-02",
    "changed": null
   },
   {
