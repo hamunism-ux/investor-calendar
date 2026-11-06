@@ -1,35 +1,35 @@
 {
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "sources": {
   "twse-hol": {
    "ok": true,
    "n": 7,
-   "at": "2026-11-05"
+   "at": "2026-11-06"
   },
   "twse-agm": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-05"
+   "at": "2026-11-06"
   },
   "mops": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-05"
+   "at": "2026-11-06"
   },
   "twse-punish": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-05"
+   "at": "2026-11-06"
   },
   "nasdaq-earn": {
    "ok": true,
    "n": 1,
-   "at": "2026-11-05"
+   "at": "2026-11-06"
   },
   "nasdaq-div": {
    "ok": true,
    "n": 3,
-   "at": "2026-11-05"
+   "at": "2026-11-06"
   }
  },
  "events": [
@@ -135,7 +135,8 @@
    "st": "o",
    "u": "https://www.nasdaq.com/market-activity/stocks/aapl/dividend-history",
    "n": "每股 $0.27；發放 2026-11-16",
-   "added": "2026-11-05"
+   "added": "2026-11-05",
+   "changed": null
   },
   {
    "id": "nasdaq-earn:NVDA",
@@ -164,7 +165,8 @@
    "st": "o",
    "u": "https://www.nasdaq.com/market-activity/stocks/msft/dividend-history",
    "n": "每股 $0.98；發放 2026-12-10",
-   "added": "2026-11-05"
+   "added": "2026-11-05",
+   "changed": null
   },
   {
    "id": "nasdaq-div:GOOGL:2026-12-07",
@@ -178,7 +180,8 @@
    "st": "o",
    "u": "https://www.nasdaq.com/market-activity/stocks/googl/dividend-history",
    "n": "每股 $0.22；發放 2026-12-14",
-   "added": "2026-11-05"
+   "added": "2026-11-05",
+   "changed": null
   },
   {
    "id": "twse-hol:2026-12-25:d59f484131",
