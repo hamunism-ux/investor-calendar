@@ -1,53 +1,38 @@
 {
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "sources": {
   "twse-hol": {
    "ok": true,
-   "n": 7,
-   "at": "2026-11-09"
+   "n": 6,
+   "at": "2026-11-10"
   },
   "twse-agm": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-09"
+   "at": "2026-11-10"
   },
   "mops": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-09"
+   "at": "2026-11-10"
   },
   "twse-punish": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-09"
+   "at": "2026-11-10"
   },
   "nasdaq-earn": {
    "ok": true,
    "n": 1,
-   "at": "2026-11-09"
+   "at": "2026-11-10"
   },
   "nasdaq-div": {
    "ok": true,
    "n": 3,
-   "at": "2026-11-09"
+   "at": "2026-11-10"
   }
  },
  "events": [
-  {
-   "id": "twse-hol:2026-09-25:1e2b12291d",
-   "d": "2026-09-25",
-   "e": null,
-   "c": "holiday",
-   "sym": null,
-   "t": "台股休市：中秋節",
-   "k": "holiday",
-   "tm": null,
-   "st": "o",
-   "u": "https://www.twse.com.tw/zh/trading/holiday.html",
-   "n": "依規定放假1日。",
-   "added": "2026-11-01",
-   "changed": null
-  },
   {
    "id": "twse-hol:2026-09-28:abe4ee1e4e",
    "d": "2026-09-28",
