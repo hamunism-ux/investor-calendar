@@ -105,7 +105,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "依規定放假1日。",
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "changed": null
   },
   {
    "id": "twse-hol:2027-01-04:7c1d17d887",
@@ -119,7 +120,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "國曆新年開始交易。",
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "changed": null
   },
   {
    "id": "twse-hol:2027-02-01:6c9a213653",
@@ -133,7 +135,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "農曆春節前最後交易。2月2日及2月3日市場無交易，僅辦理結算交割作業。",
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "changed": null
   },
   {
    "id": "twse-hol:2027-02-02:3806b47605",
@@ -147,7 +150,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": null,
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "changed": null
   },
   {
    "id": "twse-hol:2027-02-03:3806b47605",
@@ -161,7 +165,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": null,
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "changed": null
   },
   {
    "id": "twse-hol:2027-02-04:47f395d38c",
@@ -175,7 +180,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "依規定於2月4日至2月10日放假7日。2月6日及2月7日(初一及初二)適逢例假日，於2月9日（星期二）及2月10日（星期三）補假。",
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "changed": null
   },
   {
    "id": "twse-hol:2027-02-05:47f395d38c",
@@ -189,7 +195,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "依規定於2月4日至2月10日放假7日。2月6日及2月7日(初一及初二)適逢例假日，於2月9日（星期二）及2月10日（星期三）補假。",
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "changed": null
   },
   {
    "id": "twse-hol:2027-02-06:47f395d38c",
@@ -203,7 +210,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "依規定於2月4日至2月10日放假7日。2月6日及2月7日(初一及初二)適逢例假日，於2月9日（星期二）及2月10日（星期三）補假。",
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "changed": null
   },
   {
    "id": "twse-hol:2027-02-07:47f395d38c",
@@ -217,7 +225,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "依規定於2月4日至2月10日放假7日。2月6日及2月7日(初一及初二)適逢例假日，於2月9日（星期二）及2月10日（星期三）補假。",
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "changed": null
   },
   {
    "id": "twse-hol:2027-02-08:47f395d38c",
@@ -231,7 +240,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "依規定於2月4日至2月10日放假7日。2月6日及2月7日(初一及初二)適逢例假日，於2月9日（星期二）及2月10日（星期三）補假。",
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "changed": null
   },
   {
    "id": "twse-hol:2027-02-09:47f395d38c",
@@ -245,7 +255,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "依規定於2月4日至2月10日放假7日。2月6日及2月7日(初一及初二)適逢例假日，於2月9日（星期二）及2月10日（星期三）補假。",
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "changed": null
   },
   {
    "id": "twse-hol:2027-02-10:47f395d38c",
@@ -259,7 +270,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "依規定於2月4日至2月10日放假7日。2月6日及2月7日(初一及初二)適逢例假日，於2月9日（星期二）及2月10日（星期三）補假。",
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "changed": null
   },
   {
    "id": "twse-hol:2027-02-11:3213c62db5",
@@ -273,7 +285,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "農曆春節後開始交易。",
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "changed": null
   },
   {
    "id": "twse-hol:2027-02-28:e23a451244",
@@ -287,7 +300,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "依規定放假1日。",
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "changed": null
   },
   {
    "id": "twse-hol:2027-03-01:e23a451244",
@@ -301,7 +315,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "和平紀念日為2月28日適逢星期日，於3月1日（星期一）補假1日。",
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "changed": null
   },
   {
    "id": "twse-hol:2027-04-04:69643e310c",
@@ -315,7 +330,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "依規定放假1日。",
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "changed": null
   },
   {
    "id": "twse-hol:2027-04-05:69643e310c",
@@ -329,7 +345,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "依規定放假1日。",
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "changed": null
   },
   {
    "id": "twse-hol:2027-04-06:69643e310c",
@@ -343,7 +360,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "兒童節為4月4日適逢星期日，於4月6日（星期二）補假1日。",
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "changed": null
   },
   {
    "id": "twse-hol:2027-04-30:b7624ec290",
@@ -357,7 +375,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "勞動節為5月1日適逢星期六，於4月30日（星期五）補假1日。",
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "changed": null
   },
   {
    "id": "twse-hol:2027-05-01:b7624ec290",
@@ -371,7 +390,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "依規定放假1日。",
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "changed": null
   },
   {
    "id": "twse-hol:2027-06-09:ca072c4053",
@@ -385,7 +405,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "依規定放假1日。",
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "changed": null
   },
   {
    "id": "twse-hol:2027-09-15:1e2b12291d",
@@ -399,7 +420,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "依規定放假1日。",
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "changed": null
   },
   {
    "id": "twse-hol:2027-09-28:abe4ee1e4e",
@@ -413,7 +435,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "依規定放假1日。",
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "changed": null
   },
   {
    "id": "twse-hol:2027-10-10:460fbb785a",
@@ -427,7 +450,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "依規定放假1日。",
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "changed": null
   },
   {
    "id": "twse-hol:2027-10-11:460fbb785a",
@@ -441,7 +465,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "國慶日為10月10日適逢星期日，於10月11日（星期一）補假1日。",
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "changed": null
   },
   {
    "id": "twse-hol:2027-10-25:8d02119e63",
@@ -455,7 +480,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "依規定放假1日。",
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "changed": null
   },
   {
    "id": "twse-hol:2027-12-24:d59f484131",
@@ -469,7 +495,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "行憲紀念日為12月25日適逢星期六，於12月24日（星期五）補假1日。",
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "changed": null
   },
   {
    "id": "twse-hol:2027-12-25:d59f484131",
@@ -483,7 +510,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "依規定放假1日。",
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "changed": null
   },
   {
    "id": "twse-hol:2027-12-31:5b60a3a45d",
@@ -497,7 +525,8 @@
    "st": "o",
    "u": "https://www.twse.com.tw/zh/trading/holiday.html",
    "n": "中華民國開國紀念日為117年1月1日適逢星期六，於116年12月31日（星期五）補假1日。",
-   "added": "2026-11-13"
+   "added": "2026-11-13",
+   "changed": null
   }
  ]
 }
