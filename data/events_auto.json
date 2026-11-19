@@ -28,7 +28,7 @@
   },
   "nasdaq-div": {
    "ok": true,
-   "n": 3,
+   "n": 4,
    "at": "2026-11-19"
   }
  },
@@ -62,6 +62,20 @@
    "n": "每股 $0.98；發放 2026-12-10",
    "added": "2026-11-05",
    "changed": null
+  },
+  {
+   "id": "nasdaq-div:NVDA:2026-12-02",
+   "d": "2026-12-02",
+   "e": null,
+   "c": "us",
+   "sym": "NVDA",
+   "t": "NVIDIA（NVDA）除息日",
+   "k": "dividend",
+   "tm": null,
+   "st": "o",
+   "u": "https://www.nasdaq.com/market-activity/stocks/nvda/dividend-history",
+   "n": "每股 $0.25；發放 2026-12-23",
+   "added": "2026-11-19"
   },
   {
    "id": "nasdaq-div:GOOGL:2026-12-07",
