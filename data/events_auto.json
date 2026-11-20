@@ -1,35 +1,35 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "sources": {
   "twse-hol": {
    "ok": true,
    "n": 29,
-   "at": "2026-11-19"
+   "at": "2026-11-20"
   },
   "twse-agm": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-19"
+   "at": "2026-11-20"
   },
   "mops": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-19"
+   "at": "2026-11-20"
   },
   "twse-punish": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-19"
+   "at": "2026-11-20"
   },
   "nasdaq-earn": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-19"
+   "at": "2026-11-20"
   },
   "nasdaq-div": {
    "ok": true,
    "n": 4,
-   "at": "2026-11-19"
+   "at": "2026-11-20"
   }
  },
  "events": [
@@ -75,7 +75,8 @@
    "st": "o",
    "u": "https://www.nasdaq.com/market-activity/stocks/nvda/dividend-history",
    "n": "每股 $0.25；發放 2026-12-23",
-   "added": "2026-11-19"
+   "added": "2026-11-19",
+   "changed": null
   },
   {
    "id": "nasdaq-div:GOOGL:2026-12-07",
