@@ -1,35 +1,35 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-22",
  "sources": {
   "twse-hol": {
    "ok": true,
    "n": 29,
-   "at": "2026-11-21"
+   "at": "2026-11-22"
   },
   "twse-agm": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-21"
+   "at": "2026-11-22"
   },
   "mops": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-21"
+   "at": "2026-11-22"
   },
   "twse-punish": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-21"
+   "at": "2026-11-22"
   },
   "nasdaq-earn": {
    "ok": true,
    "n": 0,
-   "at": "2026-11-21"
+   "at": "2026-11-22"
   },
   "nasdaq-div": {
    "ok": true,
-   "n": 3,
-   "at": "2026-11-21"
+   "n": 4,
+   "at": "2026-11-22"
   }
  },
  "events": [
@@ -77,6 +77,20 @@
    "n": "每股 $0.25；發放 2026-12-23",
    "added": "2026-11-19",
    "changed": null
+  },
+  {
+   "id": "nasdaq-div:GOOGL:2026-12-07",
+   "d": "2026-12-07",
+   "e": null,
+   "c": "us",
+   "sym": "GOOGL",
+   "t": "Alphabet（GOOGL）除息日",
+   "k": "dividend",
+   "tm": null,
+   "st": "o",
+   "u": "https://www.nasdaq.com/market-activity/stocks/googl/dividend-history",
+   "n": "每股 $0.22；發放 2026-12-14",
+   "added": "2026-11-22"
   },
   {
    "id": "twse-hol:2027-01-01:cf7b7982db",
